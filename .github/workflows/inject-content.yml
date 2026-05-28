@@ -1,0 +1,59 @@
+name: Inject Content & Deploy
+
+on:
+  schedule:
+    - cron: "0 5 * * *"
+  workflow_dispatch:
+    inputs:
+      content_source:
+        description: "URL of JSON content to ingest"
+        required: false
+        default: ""
+      content_file:
+        description: "Path to JSON file in the repo"
+        required: false
+        default: ""
+
+env:
+  NODE_VERSION: "20"
+
+jobs:
+  inject:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "${{ env.NODE_VERSION }}"
+          cache: "npm"
+      - name: Install dependencies
+        run: npm ci
+      - name: Inject from external URL
+        if: "${{ github.event.inputs.content_source != '' }}"
+        run: |
+          curl -s "${{ github.event.inputs.content_source }}" > /tmp/incoming.json
+          node scripts/inject-content.js /tmp/incoming.json
+      - name: Inject from repo file
+        if: "${{ github.event.inputs.content_file != '' }}"
+        run: node scripts/inject-content.js "${{ github.event.inputs.content_file }}"
+      - name: Inject from default file
+        if: "${{ github.event.inputs.content_source == '' && github.event.inputs.content_file == '' }}"
+        run: |
+          if [ -f data/incoming.json ]; then
+            node scripts/inject-content.js data/incoming.json
+          fi
+      - name: Build site
+        run: npm run build
+      - name: Check for changes
+        id: git-check
+        run: |
+          git add -A
+          echo "changes=$(git diff --cached --quiet || echo 'true')" >> "$GITHUB_OUTPUT"
+      - name: Commit and push
+        if: steps.git-check.outputs.changes == 'true'
+        run: |
+          git config user.name "ZeroFlow Bot"
+          git config user.email "bot@zeroflow.dev"
+          git commit -m "Auto: inject new content [skip ci]"
+          git push

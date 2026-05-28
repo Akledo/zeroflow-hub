@@ -1,0 +1,14 @@
+{
+  "name": "niche-hub-template",
+  "version": "1.0.0",
+  "description": "ZeroFlow Niche Hub - SEO-optimized static site template",
+  "private": true,
+  "scripts": {
+    "dev": "eleventy --serve --port=8080",
+    "build": "eleventy",
+    "serve": "eleventy --serve"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}

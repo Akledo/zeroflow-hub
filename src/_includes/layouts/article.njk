@@ -1,0 +1,92 @@
+---
+layout: layouts/base.njk
+schemaType: Article
+---
+<article class="article">
+  <header class="article-header">
+    <h1>{{ title }}</h1>
+    <div class="article-meta">
+      {% if category %}<span class="category">{{ category }}</span>{% endif %}
+      {% if date %}<time datetime="{{ date }}">{% lastUpdated date %}</time>{% endif %}
+      {% if author %}<span class="author">By {{ author }}</span>{% endif %}
+    </div>
+  </header>
+
+  <div class="article-content">
+    {{ content | safe }}
+  </div>
+
+  {% if relatedProducts %}
+  <section class="product-comparison">
+    <h2>Product Comparison</h2>
+    <div class="product-grid">
+      {% for product in relatedProducts %}
+      <div class="product-card">
+        {% if product.image %}<img src="{{ product.image }}" alt="{{ product.name }}" loading="lazy">{% endif %}
+        <h3>{{ product.name }}</h3>
+        {% if product.rating %}<div class="rating">Rating: {{ product.rating }}/5</div>{% endif %}
+        <p>{{ product.description }}</p>
+        {% if product.price %}<div class="price">{{ product.price }}</div>{% endif %}
+        {% if product.affiliateUrl %}<a href="{{ product.affiliateUrl }}" class="btn btn-primary" rel="nofollow sponsored" target="_blank">Check Price</a>{% endif %}
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
+  {% if prosCons %}
+  <section class="pros-cons">
+    <h2>Pros and Cons</h2>
+    <div class="pros-cons-grid">
+      {% if prosCons.pros %}
+      <div class="pros">
+        <h3>Pros</h3>
+        <ul>
+          {% for item in prosCons.pros %}<li>{{ item }}</li>{% endfor %}
+        </ul>
+      </div>
+      {% endif %}
+      {% if prosCons.cons %}
+      <div class="cons">
+        <h3>Cons</h3>
+        <ul>
+          {% for item in prosCons.cons %}<li>{{ item }}</li>{% endfor %}
+        </ul>
+      </div>
+      {% endif %}
+    </div>
+  </section>
+  {% endif %}
+
+  {% if faq %}
+  <section class="faq">
+    <h2>Frequently Asked Questions</h2>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {% for item in faq %}
+        {
+          "@type": "Question",
+          "name": "{{ item.question | escape }}",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "{{ item.answer | escape }}"
+          }
+        }{% if not loop.last %},{% endif %}
+        {% endfor %}
+      ]
+    }
+    </script>
+    <div class="faq-list">
+      {% for item in faq %}
+      <details>
+        <summary>{{ item.question }}</summary>
+        <p>{{ item.answer }}</p>
+      </details>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+</article>

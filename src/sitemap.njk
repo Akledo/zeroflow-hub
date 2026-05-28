@@ -1,0 +1,33 @@
+---
+permalink: "/sitemap.xml"
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>{{ site.url }}/</loc>
+    <priority>1.0</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>{{ site.url }}/about/</loc>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>{{ site.url }}/contact/</loc>
+    <priority>0.3</priority>
+  </url>
+  {% for post in collections.allArticles %}
+  <url>
+    <loc>{{ site.url }}{{ post.url }}</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+    {% if post.data.date %}<lastmod>{{ post.data.date }}</lastmod>{% endif %}
+  </url>
+  {% endfor %}
+  {% for cat in collections.categories %}
+  <url>
+    <loc>{{ site.url }}/category/{{ cat | slugify }}/</loc>
+    <priority>0.5</priority>
+  </url>
+  {% endfor %}
+</urlset>
