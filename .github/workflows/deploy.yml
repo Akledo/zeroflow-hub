@@ -8,6 +8,7 @@ on:
       - "scripts/**"
       - "package.json"
       - ".eleventy.js"
+      - "netlify.toml"
   schedule:
     - cron: "0 6 * * *"
   workflow_dispatch:
@@ -22,6 +23,8 @@ env:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     steps:
       - uses: actions/checkout@v4
       - name: Setup Node.js
@@ -37,8 +40,10 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: "_site"
+
   deploy:
     needs: build
+    if: success()
     permissions:
       pages: write
       id-token: write
