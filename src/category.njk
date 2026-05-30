@@ -13,7 +13,7 @@ eleventyComputed:
 
 <h1>Category: {{ category }}</h1>
 <div class="article-list">
-  {% set articles = collections.allArticles | where("data.category", category) %}
+  {% set articles = collections.allArticles | where("category", category) %}
   {% for post in articles %}
   <article class="article-card">
     <h2><a href="{{ post.url }}">{{ post.data.title }}</a></h2>
