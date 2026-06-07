@@ -1,5 +1,7 @@
 [
   { "label": "Home", "url": "/" },
   { "label": "About", "url": "/about/" },
+  { "label": "Editorial", "url": "/editorial-guidelines/" },
+  { "label": "Privacy", "url": "/privacy/" },
   { "label": "Contact", "url": "/contact/" }
 ]
