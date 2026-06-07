@@ -1,0 +1,100 @@
+---
+layout: layouts/base.njk
+title: "Appliance Thermal Load Map & Power Database"
+description: "The definitive database of 100+ appliance power draws with BTU/hr cooling requirements. Plan your backup power, off-grid system, or home AI lab cooling."
+schemaType: "WebApplication"
+---
+
+<h1>🔌 Appliance Thermal Load Map</h1>
+<p class="hero-description">The definitive database for planning your backup power or off-grid life. Browse 100+ appliances with running watts, starting surge, BTU/hr heat output, and daily energy consumption.</p>
+
+<div id="appliance-db" class="calc-container">
+  <div class="db-controls">
+    <div class="form-row">
+      <label for="db-search">Search</label>
+      <input type="text" id="db-search" class="form-input db-search" placeholder="Search appliances..." autocomplete="off">
+    </div>
+    <div class="form-row">
+      <label for="db-category">Category</label>
+      <select class="form-select db-category-filter">
+        <option value="">All Categories</option>
+        <option value="Kitchen">Kitchen</option>
+        <option value="Climate">Climate</option>
+        <option value="Computing">Computing</option>
+        <option value="Connectivity">Connectivity</option>
+        <option value="Energy">Energy</option>
+        <option value="Medical">Medical</option>
+        <option value="Workshop">Workshop</option>
+        <option value="Home">Home</option>
+      </select>
+    </div>
+    <div class="form-row">
+      <label for="db-sort">Sort By</label>
+      <select class="form-select db-sort">
+        <option value="cat">Category</option>
+        <option value="name">Name (A-Z)</option>
+        <option value="watts-asc">Watts (Low → High)</option>
+        <option value="watts-desc">Watts (High → Low)</option>
+        <option value="btu">BTU/hr (High → Low)</option>
+      </select>
+    </div>
+    <div class="db-count-display">
+      Showing <strong class="db-count">0</strong> appliances
+    </div>
+  </div>
+
+  <div class="db-table-wrapper">
+    <table class="db-table">
+      <thead>
+        <tr>
+          <th>Appliance</th>
+          <th>Category</th>
+          <th>Running (W)</th>
+          <th>Starting (W)</th>
+          <th>BTU/hr</th>
+          <th>Add</th>
+        </tr>
+      </thead>
+      <tbody class="db-tbody"></tbody>
+    </table>
+  </div>
+
+  <div class="db-estimator">
+    <h2>📊 Your Load Profile Estimator</h2>
+    <p>Click <strong>"+ Add"</strong> on appliances above to build a load profile. Adjust hours per day to match your usage.</p>
+    <div class="db-estimator-list">
+      <p class="empty-estimator">Click "+ Add" on appliances above to build your load profile.</p>
+    </div>
+    <div class="db-estimator-totals">
+      <div class="total-card">
+        <span class="total-label">Total Running Watts</span>
+        <span class="total-value est-total-watts">0</span>
+        <span class="total-unit">W</span>
+      </div>
+      <div class="total-card">
+        <span class="total-label">Daily Energy</span>
+        <span class="total-value est-total-wh">0</span>
+        <span class="total-unit">Wh/day</span>
+      </div>
+      <div class="total-card">
+        <span class="total-label">Daily Heat Output</span>
+        <span class="total-value est-total-btu">0</span>
+        <span class="total-unit">BTU/day</span>
+      </div>
+    </div>
+    <p class="db-estimator-cta">Use this load profile in the <a href="/off-grid-survival-estimator/">Off-Grid Survival Estimator</a> to size your solar and battery system.</p>
+  </div>
+</div>
+
+<section class="calc-content">
+  <h2>Understanding Appliance Power Draw</h2>
+  <p>Every appliance has two critical power numbers: <strong>running watts</strong> (continuous draw during operation) and <strong>starting watts</strong> (surge required to start motors and compressors). The starting surge can be 2-5x the running watts for appliances with motors — this is critical when sizing inverters and generators.</p>
+  
+  <h3>BTU/hr — Why It Matters</h3>
+  <p>Every watt of electricity consumed eventually becomes heat. For home AI labs and server rooms, this heat load must be removed by cooling systems. At 3.412 BTU per watt-hour, a single RTX 5090 workstation running 12 hours/day adds ~30,700 BTU of heat to your space — equivalent to running a 2.5-ton AC unit just to keep temperatures stable.</p>
+  
+  <h3>Off-Grid Planning</h3>
+  <p>Use this database to build your load profile, then feed the results into the <a href="/off-grid-survival-estimator/">Off-Grid Survival Estimator</a> for physics-based solar, battery, and wind sizing based on your geography.</p>
+</section>
+
+<script defer src="/assets/js/calculators/appliance-database.js"></script>

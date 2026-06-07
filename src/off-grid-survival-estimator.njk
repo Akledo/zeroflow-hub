@@ -1,0 +1,139 @@
+---
+layout: layouts/base.njk
+title: "Off-Grid Connectivity & Survival Estimator"
+description: "Physics-based solar, battery, and wind sizing for off-grid living. Enter your load profile and geography to get a complete system design."
+schemaType: "WebApplication"
+---
+
+<h1>🌲 Off-Grid Survival Estimator</h1>
+<p class="hero-description">Physics-based planning for your geography. Don't guess your solar/wind mix — get a properly sized system for your actual loads and location.</p>
+
+<div id="offgrid-estimator" class="calc-container">
+  <fieldset>
+    <legend>1. Where Are You?</legend>
+    <div class="form-row">
+      <label for="og-state">State / Region</label>
+      <select class="form-select og-state">
+        <option value="">— Select —</option>
+      </select>
+    </div>
+    <div class="form-row form-row-inline">
+      <div>
+        <label for="og-psh-override">Peak Sun Hours (override)</label>
+        <input type="number" class="form-input og-psh-override" step="0.1" min="0" max="10" placeholder="Auto">
+        <span class="input-hint">Leave blank to use regional average</span>
+      </div>
+      <div>
+        <label for="og-wind-override">Avg Wind Speed m/s (override)</label>
+        <input type="number" class="form-input og-wind-override" step="0.1" min="0" max="20" placeholder="Auto">
+        <span class="input-hint">Leave blank to use regional average</span>
+      </div>
+    </div>
+  </fieldset>
+
+  <fieldset>
+    <legend>2. Your Load Profile</legend>
+    <div class="form-row">
+      <label for="og-preset">Quick Load Presets</label>
+      <select class="form-select og-preset">
+        <option value="">— Manual entry —</option>
+        <option value="minimal">Minimal (Starlink Mini + basics)</option>
+        <option value="remote-work">Remote Work Rig</option>
+        <option value="homelab-ai">AI Home Lab</option>
+        <option value="full-home">Full Off-Grid Home</option>
+      </select>
+    </div>
+
+    <table class="og-load-table">
+      <thead>
+        <tr>
+          <th>Appliance</th>
+          <th>Watts</th>
+          <th>Hours/Day</th>
+          <th>Wh/Day</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody class="og-load-tbody">
+        <tr><td colspan="5" class="empty">No loads added. Select a preset or add manually below.</td></tr>
+      </tbody>
+    </table>
+
+    <div class="og-add-row">
+      <input type="text" class="form-input og-custom-name" placeholder="Appliance name">
+      <input type="number" class="form-input og-custom-watts" placeholder="Watts" step="1" min="0">
+      <input type="number" class="form-input og-custom-hours" placeholder="Hrs/day" step="0.5" min="0" max="24">
+      <button type="button" class="btn btn-primary og-add-btn">+ Add</button>
+    </div>
+
+    <div class="form-row">
+      <label for="og-autonomy">Days of Autonomy (battery backup)</label>
+      <input type="number" class="form-input og-autonomy" step="1" min="1" max="14" value="3">
+      <span class="input-hint">How many cloudy days should your system handle without sun?</span>
+    </div>
+
+    <button type="button" class="btn btn-primary btn-lg og-calc-btn">Calculate My System</button>
+  </fieldset>
+
+  <div class="calc-results">
+    <h2>📋 Your System Design</h2>
+
+    <div class="og-geo-info">
+      <strong>Your Location Data:</strong>
+      Peak Sun Hours: <span class="og-geo-psh">—</span> hrs/day ·
+      Wind Speed: <span class="og-geo-wind">—</span> m/s
+    </div>
+
+    <div class="results-grid">
+      <div class="result-card highlight">
+        <span class="result-label">Daily Energy Need</span>
+        <span class="result-value og-daily-wh"><big>0</big></span>
+        <span class="result-note">Wh per day</span>
+      </div>
+      <div class="result-card">
+        <span class="result-label">Solar Array Required</span>
+        <span class="result-value og-solar-kw"><big>0</big></span>
+        <span class="result-note">kW (DC nameplate)</span>
+      </div>
+      <div class="result-card">
+        <span class="result-label">Battery Bank</span>
+        <span class="result-value og-battery-kwh"><big>0</big></span>
+        <span class="result-note">kWh (LFP, 80% DoD)</span>
+      </div>
+      <div class="result-card">
+        <span class="result-label">Wind Turbine Output</span>
+        <span class="result-value og-wind-kwh"><big>0</big></span>
+        <span class="result-note">kWh/day (1.5m turbine)</span>
+      </div>
+      <div class="result-card result-wide">
+        <span class="result-label">Wind Viability</span>
+        <span class="result-value og-wind-viability">—</span>
+      </div>
+    </div>
+
+    <div class="og-recommendations">
+      <h3>🛒 Product Recommendations</h3>
+      <div class="og-rec-grid">
+        <div class="rec-card og-solar-rec"></div>
+        <div class="rec-card og-batt-rec"></div>
+        <div class="rec-card og-wind-rec"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section class="calc-content">
+  <h2>How the Math Works</h2>
+  <h3>Solar Array Sizing</h3>
+  <p>Array size (watts) = (Daily Wh × 1.25 inefficiency factor) / Peak Sun Hours. The 25% inefficiency factor accounts for inverter losses, wiring resistance, panel degradation, and non-optimal angles.</p>
+  
+  <h3>Battery Bank Sizing</h3>
+  <p>Battery capacity (Wh) = (Daily Wh × Days of Autonomy) / Depth of Discharge. We use 80% DoD for LFP (LiFePO₄) batteries — the safest balance between usable capacity and cycle life.</p>
+  
+  <h3>Wind Supplement</h3>
+  <p>Turbine power follows the cubic wind law: P = 0.5 × ρ × A × v³ × C<sub>p</sub>. At wind speeds below 4 m/s (~9 mph), small turbines generate negligible power. Above 5 m/s, they become viable supplements.</p>
+
+  <p class="learn-more">Deep dive: <a href="/category/off-grid-systems/">Off-Grid Systems Guides</a> · <a href="/category/energy-storage/">Energy Storage Research</a></p>
+</section>
+
+<script defer src="/assets/js/calculators/off-grid-estimator.js"></script>
