@@ -6,13 +6,18 @@ module.exports = function(eleventyConfig) {
   // --- Shortcodes ---
   eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
   eleventyConfig.addShortcode("lastUpdated", (date) => {
+    if (!date) return "";
     const d = new Date(date);
+    if (isNaN(d.getTime())) return String(date);
     return d.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" });
   });
 
   // --- Filters ---
   eleventyConfig.addFilter("readableDate", (dateObj) => {
-    return dateObj.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" });
+    if (!dateObj) return "";
+    const d = typeof dateObj === "string" ? new Date(dateObj) : dateObj;
+    if (isNaN(d.getTime())) return String(dateObj);
+    return d.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" });
   });
 
   eleventyConfig.addFilter("slugify", (str) => {
