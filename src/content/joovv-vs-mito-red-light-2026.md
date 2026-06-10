@@ -13,6 +13,11 @@ tags:
   - "Joovv"
   - "Mito"
 keywords: "Joovv vs Mito Red Light panel"
+relatedProducts:
+  - name: "Joovv Solo 3.0"
+    description: "The gold standard in red light therapy. Modular design with patented recovery+ mode."
+    price: "From $1,299"
+    affiliateUrl: "https://joovv.com/products/joovv-solo-3-0?sscid=zeroflow"
 ---
 
 ---

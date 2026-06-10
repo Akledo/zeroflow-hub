@@ -11,7 +11,7 @@ relatedProducts:
   - name: "Oura Ring Gen 3"
     rating: 4.8
     price: "From $299"
-    affiliateUrl: "https://ouraring.com/"
+    affiliateUrl: "https://ouraring.com/?sscid=zeroflow"
   - name: "WHOOP 4.0"
     rating: 4.7
     price: "Subscription Only"
