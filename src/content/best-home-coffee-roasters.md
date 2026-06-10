@@ -1,33 +1,33 @@
 ---
 layout: layouts/article.njk
 title: "Best Home Coffee Roasters for Small Batches 2026: From Hobbyist to Prosumer"
-description: \"Take control of your coffee's flavor profile. We review the best home coffee roasters of 2026, including the Behmor 2000AB Plus and Gene Cafe CBR-101.\"
+description: "Take control of your coffee's flavor profile. We review the best home coffee roasters of 2026, including the Behmor 2000AB Plus and Gene Cafe CBR-101."
 date: 2026-08-10
-category: \"Coffee Roasting\"
-author: \"ZeroFlow Writer\"
-primaryKeyword: \"best home coffee roaster for small batches\"
-keywords: [\"best home coffee roaster for small batches\", \"home coffee roasting 2026\", \"Behmor 2000AB Plus review\", \"Gene Cafe vs Behmor\", \"small batch coffee roasting guide\"]
+category: "Coffee Roasting"
+author: "ZeroFlow Writer"
+primaryKeyword: "best home coffee roaster for small batches"
+keywords: ["best home coffee roaster for small batches", "home coffee roasting 2026", "Behmor 2000AB Plus review", "Gene Cafe vs Behmor", "small batch coffee roasting guide"]
 relatedProducts:
-  - name: \"Behmor 2000AB Plus\"
+  - name: "Behmor 2000AB Plus"
     rating: 4.7
-    price: \"$450\"
-    affiliateUrl: \"https://www.roastmasters.com/behmor.html\"
-  - name: \"Gene Cafe CBR-101\"
+    price: "$450"
+    affiliateUrl: "https://www.seattlecoffeegear.com/behmor-2000ab-plus-roasted-coffee-roaster?sscid=zeroflow"
+  - name: "Gene Cafe CBR-101"
     rating: 4.6
-    price: \"$650\"
-    affiliateUrl: \"https://www.roastmasters.com/genecafe.html\"
-  - name: \"Fresh Roast SR800\"
+    price: "$650"
+    affiliateUrl: "https://www.seattlecoffeegear.com/gene-cafe-cbr-101-coffee-roaster?sscid=zeroflow"
+  - name: "Fresh Roast SR800"
     rating: 4.5
-    price: \"$280\"
-    affiliateUrl: \"https://www.roastmasters.com/freshroast.html\"
+    price: "$280"
+    affiliateUrl: "https://www.seattlecoffeegear.com/fresh-roast-sr800-coffee-roaster?sscid=zeroflow"
 prosCons:
   pros:
-    - \"Behmor 2000AB Plus features excellent smoke suppression for indoor roasting.\"
-    - \"Gene Cafe CBR-101's off-axis rotation ensures a highly consistent and even roast.\"
-    - \"Fresh Roast SR800 is the most affordable and fastest way to start roasting at home.\"
+    - "Behmor 2000AB Plus features excellent smoke suppression for indoor roasting."
+    - "Gene Cafe CBR-101's off-axis rotation ensures a highly consistent and even roast."
+    - "Fresh Roast SR800 is the most affordable and fastest way to start roasting at home."
   cons:
-    - \"Fresh Roast has zero smoke suppression; only use it near a vent or window.\"
-    - \"Behmor's cooling cycle is notoriously slow, which can lead to over-roasting if not careful.\"
+    - "Fresh Roast has zero smoke suppression; only use it near a vent or window."
+    - "Behmor's cooling cycle is notoriously slow, which can lead to over-roasting if not careful."
 ---
 
 # Best Home Coffee Roasters for Small Batches 2026

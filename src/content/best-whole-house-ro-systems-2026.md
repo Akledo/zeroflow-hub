@@ -11,11 +11,11 @@ relatedProducts:
   - name: "SpringWell Whole House RO"
     rating: 4.9
     price: "$4,000+"
-    affiliateUrl: "https://www.springwellwater.com/product/water-filtration-systems/whole-house-reverse-osmosis-system/"
+    affiliateUrl: "https://www.springwellwater.com/product/water-filtration-systems/whole-house-reverse-osmosis-system/?sscid=zeroflow"
   - name: "US Water Systems Defender"
     rating: 4.8
     price: "$5,500+"
-    affiliateUrl: "https://www.uswatersystems.com/defender-whole-house-ro-system.html"
+    affiliateUrl: "https://www.uswatersystems.com/defender-whole-house-ro-system.html?sscid=zeroflow"
 prosCons:
   pros:
     - "Eliminates 99.9% of contaminants including PFAS, lead, and microplastics"

@@ -6,6 +6,11 @@ description: "Review of the Alen BreatheSmart 75i. We analyze why this smart, qu
 date: 2026-06-03
 category: "Health Tech"
 author: "ZeroFlow Writer"
+relatedProducts:
+  - name: "Alen BreatheSmart 75i"
+    description: "Medical-grade H13 HEPA filtration for spaces up to 1,300 sq ft. Best-in-class for VOC and particle removal."
+    price: "From $749"
+    affiliateUrl: "https://alen.com/products/breathesmart-75i-air-purifier?sscid=zeroflow"
 ---
 
 # Alen BreatheSmart 75i Review
