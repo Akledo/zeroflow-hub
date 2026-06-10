@@ -1,0 +1,107 @@
+---
+layout: layouts/base.njk
+title: "Cloud Exit ROI Calculator"
+description: "Calculate the exact month your local AI rig or home lab pays for itself. Compare cloud API costs vs. hardware investment with our interactive break-even analyzer."
+schemaType: "WebApplication"
+---
+
+<h1>☁️ Cloud Exit ROI Calculator</h1>
+<p class="hero-description">Stop renting your data. Calculate the exact month your Home Lab or AI Rig pays for itself based on your actual cloud spending and hardware costs.</p>
+
+<div id="cloud-exit-calc" class="calc-container">
+  <form class="calc-form">
+    <fieldset>
+      <legend>1. Monthly Cloud Spend</legend>
+      <p class="fieldset-hint">What are you paying for cloud services and AI APIs each month?</p>
+      <div class="cloud-service-list"></div>
+    </fieldset>
+
+    <fieldset>
+      <legend>2. Hardware Configuration</legend>
+      <div class="form-row">
+        <label for="hardware-preset">Hardware Preset</label>
+        <select id="hardware-preset" class="form-select">
+          <option value="">— Select a preset —</option>
+        </select>
+      </div>
+      <div class="form-row">
+        <label for="hardware-cost">Hardware Investment ($)</label>
+        <input type="number" id="hardware-cost" step="100" min="100" value="5200" class="form-input">
+      </div>
+      <div class="form-row">
+        <label for="idle-watts">Idle Power Draw (W)</label>
+        <input type="number" id="idle-watts" step="5" min="0" value="60" class="form-input">
+      </div>
+      <div class="form-row">
+        <label for="load-watts">Max Load Power Draw (W)</label>
+        <input type="number" id="load-watts" step="10" min="0" value="450" class="form-input">
+      </div>
+      <div class="form-row">
+        <label for="load-hours">Daily High-Load Hours</label>
+        <input type="number" id="load-hours" step="1" min="0" max="24" value="8" class="form-input">
+        <span class="input-hint">Hours per day at max load (e.g., training, rendering)</span>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>3. Electricity Rates</legend>
+      <div class="form-row">
+        <label for="kwh-rate">Electricity Rate ($/kWh)</label>
+        <input type="number" id="kwh-rate" step="0.01" min="0" value="0.16" class="form-input">
+        <span class="input-hint">US average: $0.16/kWh. Adjust to your local rate.</span>
+      </div>
+    </fieldset>
+  </form>
+
+  <div class="calc-results">
+    <h2>Your Results</h2>
+    <div class="results-grid">
+      <div class="result-card highlight">
+        <span class="result-label">Break-Even Point</span>
+        <span class="result-value result-breakeven">—</span>
+        <span class="result-note">Until your hardware pays for itself</span>
+      </div>
+      <div class="result-card">
+        <span class="result-label">5-Year ROI</span>
+        <span class="result-value result-roi5yr">—</span>
+        <span class="result-note">Net savings over 5 years</span>
+      </div>
+      <div class="result-card">
+        <span class="result-label">Net Monthly Savings</span>
+        <span class="result-value result-monthly">—</span>
+        <span class="result-note">Cloud spend minus power cost</span>
+      </div>
+      <div class="result-card">
+        <span class="result-label">Monthly Cloud Spend</span>
+        <span class="result-value result-total-cloud">$0</span>
+        <span class="result-note">Total cloud + API subscriptions</span>
+      </div>
+      <div class="result-card">
+        <span class="result-label">Monthly Power Cost</span>
+        <span class="result-value result-operating">$0</span>
+        <span class="result-note">Electricity for running the hardware</span>
+      </div>
+    </div>
+
+    <details class="calc-details">
+      <summary>Detailed Breakdown</summary>
+      <table class="detail-table">
+        <tbody class="detail-rows"></tbody>
+      </table>
+    </details>
+  </div>
+</div>
+
+<section class="calc-content">
+  <h2>Why Go Local?</h2>
+  <p>Running AI workloads on your own hardware isn't just about privacy — it's often dramatically cheaper over time. A single RTX 5090 workstation costing $5,200 can replace hundreds of dollars in monthly OpenAI/Claude API bills, especially for heavy inference or fine-tuning tasks.</p>
+  <p>This calculator factors in your actual cloud subscriptions (iCloud, Dropbox, AI APIs) and compares them to the total cost of ownership for local hardware, including electricity at your local rate.</p>
+  <h3>Key Assumptions</h3>
+  <ul>
+    <li><strong>Electricity rate:</strong> Defaults to $0.16/kWh (US average). Adjust to your local rate for accuracy.</li>
+    <li><strong>Power draw:</strong> AI workstations idle most of the day but spike during training/rendering. We model both.</li>
+    <li><strong>Maintenance:</strong> Not included — component failures and upgrades are unpredictable. Most hardware lasts 3-5 years.</li>
+  </ul>
+</section>
+
+<script defer src="/assets/js/calculators/cloud-exit.js"></script>
