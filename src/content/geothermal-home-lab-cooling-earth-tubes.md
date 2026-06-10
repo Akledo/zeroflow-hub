@@ -1,18 +1,5 @@
----
-layout: "layouts/article.njk"
-title: "Geothermal Cooling for Your Home Lab: Using Earth Tubes to Cool Your AI Rig"
-description: "How earth tube geothermal cooling works for AI labs — ground temperature math, tube length sizing, installation requirements."
-date: "2026-06-07"
-category: "Technology"
-author: "ZeroFlow Editorial Team"
-tags:
-  - "Geothermal"
-  - "Cooling"
-  - "Home Lab"
-  - "DIY"
-  - "AI"
-keywords: "geothermal earth tube cooling, home lab passive cooling, ground temperature heat exchange"
----
+# Geothermal Cooling for Your Home Lab: Using Earth Tubes to Cool Your AI Rig
+
 [Affiliate Disclosure: This post contains affiliate links. If you use these links to buy something we may earn a commission. Thanks.]
 
 ## Introduction

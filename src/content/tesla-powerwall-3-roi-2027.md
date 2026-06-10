@@ -1,20 +1,4 @@
 ---
-layout: "layouts/article.njk"
-title: "Tesla Powerwall 3 ROI 2027"
-description: "Powerwall 3 payback TOU arbitrage"
-date: "2026-06-07"
-category: "Energy Storage"
-author: "ZeroFlow Editorial Team"
-tags:
-  - "Tesla"
-  - "Powerwall"
-  - "Battery"
-  - "ROI"
-  - "Solar"
-keywords: "Tesla Powerwall 3 ROI payback"
----
-
----
 layout: layouts/article.njk
 title: "Is the Tesla Powerwall 3 Worth It in 2027? (The Real ROI of Home Battery Storage)"
 description: "A data-driven ROI analysis of the Powerwall 3, accounting for VPP earnings, LFP cycle life, and utility arbitrage."
@@ -39,3 +23,4 @@ The "hidden" ROI of the Powerwall 3 is participation in **Virtual Power Plants (
 Tesla has transitioned to **Lithium Iron Phosphate (LFP)**, meaning a cycle life of 4,000+ cycles. This ensures the unit will maintain 70% capacity for over 10 years, even with daily cycling.
 
 **Verdict:** The Powerwall 3 is the best "all-in-one" solution, but prosumers looking for 100% sovereignty should look into [Victron-integrated HEMS](https://github.com/Akledo/zeroflow-hub/tree/main/content/cloud-independent-hems-victron-ha-yellow-2027.md).
+

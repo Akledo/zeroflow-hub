@@ -1,21 +1,4 @@
 ---
-layout: "layouts/article.njk"
-title: "DIY NAS vs Cloud Cost"
-description: "NAS vs cloud TCO Synology QNAP"
-date: "2026-06-07"
-category: "Technology"
-author: "ZeroFlow Editorial Team"
-heroImage: "/assets/images/diy-nas-vs-cloud-hero.png"
-tags:
-  - "NAS"
-  - "Cloud"
-  - "Storage"
-  - "DIY"
-  - "Privacy"
-keywords: "DIY NAS vs cloud storage cost"
----
-
----
 layout: layouts/article.njk
 title: "DIY NAS vs. Cloud Subscriptions: The 5-Year Cost Comparison You Need to See"
 description: "Is building a TrueNAS or Unraid server actually cheaper than Google One or iCloud? We break down the TCO math."
@@ -41,3 +24,4 @@ Beyond cost, the NAS offers **Data Sovereignty**. Your photos aren't being scann
 
 ## 3. Hardware Choice: TrueNAS vs. Unraid
 [TrueNAS](https://github.com/Akledo/zeroflow-hub/tree/main/content/home-lab-privacy-guide.md) offers the best data integrity via ZFS, while Unraid provides the easiest upgrade path for mixed-size drives.
+

@@ -1,19 +1,4 @@
 ---
-layout: "layouts/article.njk"
-title: "Reducing Home Lab Rackmount Noise"
-description: "Server rack noise acoustic panels"
-date: "2026-06-07"
-category: "Technology"
-author: "ZeroFlow Editorial Team"
-tags:
-  - "Home Lab"
-  - "Noise"
-  - "Cooling"
-  - "DIY"
-keywords: "home lab noise reduction"
----
-
----
 layout: layouts/article.njk
 title: "Silence the Screaming Fans: How to Reduce Noise in Your 4U Rackmount AI Rig"
 description: "The acoustics of server cooling: How to achieve library-quiet performance in a 2,000W AI workstation."
@@ -36,3 +21,4 @@ Doubling the distance from the server reduces the SPL by 6dB. Combined with a so
 
 ## 3. Liquid Cooling: The Final Frontier
 For high-density AI workloads (multi-RTX 5090), traditional air cooling cannot be both quiet and effective. See our guide on [Liquid-Cooled Server Racks](https://github.com/Akledo/zeroflow-hub/tree/main/content/liquid-cooling-server-racks-residential-physics-2027.md) for the ultimate silent solution.
+

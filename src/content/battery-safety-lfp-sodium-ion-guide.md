@@ -1,17 +1,5 @@
----
-layout: "layouts/article.njk"
-title: "Are Lithium Batteries Safe for Indoor Use? (LFP vs Sodium-Ion Truth)"
-description: "Safety analysis of LFP vs sodium-ion batteries for indoor energy storage — thermal runaway, chemistry differences, best practices."
-date: "2026-06-07"
-category: "Energy Storage"
-author: "ZeroFlow Editorial Team"
-tags:
-  - "Battery"
-  - "Safety"
-  - "LFP"
-  - "Sodium-Ion"
-keywords: "LFP battery indoor safety, sodium-ion vs lithium safety, home battery fire risk"
----
+# Are Lithium Batteries Safe for Indoor Use? (The Truth About LFP vs. Sodium-Ion)
+
 [Affiliate Disclosure: This post contains affiliate links. If you use these links to buy something we may earn a commission. Thanks.]
 
 ## Introduction

@@ -1,18 +1,5 @@
----
-layout: "layouts/article.njk"
-title: "Beginner Guide to Meshtastic: Keeping Your Family Connected Without Cell Towers"
-description: "Set up a family Meshtastic mesh for emergency communication — device selection, range estimation, off-grid deployment."
-date: "2026-06-07"
-category: "Off-Grid Comms"
-author: "ZeroFlow Editorial Team"
-tags:
-  - "Meshtastic"
-  - "LoRa"
-  - "Emergency"
-  - "Family"
-  - "Off-Grid"
-keywords: "Meshtastic family emergency comms, LoRa mesh network family, off-grid texting"
----
+# The Beginner's Guide to Meshtastic: How to Keep Your Family Connected Without Cell Towers
+
 [Affiliate Disclosure: This post contains affiliate links. If you use these links to buy something we may earn a commission. Thanks.]
 
 ## Introduction

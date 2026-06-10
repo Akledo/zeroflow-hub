@@ -1,20 +1,4 @@
 ---
-layout: "layouts/article.njk"
-title: "Off-Grid Laundry Solutions"
-description: "Hand crank propane solar washer"
-date: "2026-06-07"
-category: "Off-Grid Systems"
-author: "ZeroFlow Editorial Team"
-heroImage: "/assets/images/offgrid-laundry-hero.png"
-tags:
-  - "Laundry"
-  - "Off-Grid"
-  - "DIY"
-  - "Sustainability"
-keywords: "off grid laundry hand crank washer"
----
-
----
 layout: layouts/article.njk
 title: "The Best Off-Grid Laundry Solutions: Manual Washers vs. Solar-Powered Inverter Units"
 description: "Analyzing the Wh-per-load efficiency of manual hand-crank washers vs. modern high-efficiency electric units."
@@ -40,3 +24,4 @@ Modern portable HE washers (like those from **Black+Decker** or **Costway**) dra
 
 ## 3. The Hybrid Strategy
 The most resilient off-grid homes use a small electric washer for volume and a manual pressure unit for delicate research-grade gear or as a backup when the [battery bank is freezing](https://github.com/Akledo/zeroflow-hub/tree/writer/phase10-bridge-batch4).
+

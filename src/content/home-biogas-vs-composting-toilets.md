@@ -1,21 +1,4 @@
 ---
-layout: "layouts/article.njk"
-title: "Home Biogas vs Composting Toilets"
-description: "Biogas vs composting toilets off-grid"
-date: "2026-06-07"
-category: "Off-Grid Systems"
-author: "ZeroFlow Editorial Team"
-heroImage: "/assets/images/biogas-vs-composting-hero.png"
-tags:
-  - "Biogas"
-  - "Composting"
-  - "Off-Grid"
-  - "Waste"
-  - "DIY"
-keywords: "home biogas vs composting toilet"
----
-
----
 layout: layouts/article.njk
 title: "Home Biogas vs. Composting Toilets: Which Waste-to-Energy Solution is Best for You?"
 description: "Comparing the methane yield of anaerobic digestion vs. the soil-building capacity of composting toilets."
@@ -41,3 +24,4 @@ Composting toilets rely on **aerobic decomposition** (with oxygen) to break down
 - **Cons:** No energy output; requires a "cure" time of 6-12 months before use.
 
 **Strategic Link:** For a deep dive into the thermodynamics of methane production, see our [Residential Waste-to-Energy Guide](https://github.com/Akledo/zeroflow-hub/tree/main/content/residential-waste-to-energy-technical-guide-2027.md).
+

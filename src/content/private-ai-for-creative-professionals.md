@@ -1,21 +1,4 @@
 ---
-layout: "layouts/article.njk"
-title: "Private AI for Creative Professionals"
-description: "Local LLMs artists writers no cloud"
-date: "2026-06-07"
-category: "AI Productivity"
-author: "ZeroFlow Editorial Team"
-heroImage: "/assets/images/private-ai-creative-hero.png"
-tags:
-  - "AI"
-  - "Privacy"
-  - "Creative"
-  - "LLM"
-  - "Local"
-keywords: "private AI for creatives local LLM"
----
-
----
 layout: layouts/article.njk
 title: "Private AI for Creative Professionals: How to Run a Local GPT-4 Alternative for 100% Privacy"
 description: "Protect your IP and creative workflows by running Large Language Models (LLMs) locally on consumer hardware."
@@ -24,6 +7,15 @@ category: Home Lab
 author: ZeroFlow Writer
 primaryKeyword: run LLM locally for writing
 keywords: [privacy focused AI for research, local Claude alternative, Llama 3 for writers guide, Ollama vs LM Studio for writers, private AI hardware requirements]
+relatedProducts:
+  - name: "Puget Systems AI Workstation"
+    description: "Whisper-quiet workstations built for creative studios and researchers. Perfect for local LLM workloads."
+    price: "Custom Quote"
+    affiliateUrl: "https://www.pugetsystems.com/?BI=zeroflow"
+  - name: "Apple MacBook Pro (M3 Max)"
+    description: "The portable choice for local AI. Unified memory allows for running massive models on the go."
+    price: "From $3,299"
+    affiliateUrl: "https://www.bhphotovideo.com/c/search?Ntt=MacBook+Pro+M3+Max&BI=zeroflow"
 ---
 
 # Data Sovereignty for Creatives: Local AI
@@ -39,3 +31,4 @@ When you run a model locally, your data never leaves your local area network (LA
 
 ## 3. Hardware Requirements
 To run a GPT-4 class model (like Llama-3 70B) at usable speeds, you need VRAM. While an Apple M2/M3 Max with 64GB+ RAM is excellent, the alpha for price-to-performance is a [Multi-GPU RTX 5090 Home Lab](https://github.com/Akledo/zeroflow-hub/tree/main/content/multi-gpu-rtx-5090-home-lab-design-2027.md).
+

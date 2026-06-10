@@ -1,18 +1,5 @@
----
-layout: "layouts/article.njk"
-title: "Portable Desalination: Can You Get Drinking Water from the Ocean in an Emergency?"
-description: "Reality check on portable desalination — energy requirements vs output, RO vs distillation, survival scenarios."
-date: "2026-06-07"
-category: "Water Systems"
-author: "ZeroFlow Editorial Team"
-tags:
-  - "Desalination"
-  - "Survival"
-  - "Water"
-  - "Emergency"
-  - "DIY"
-keywords: "portable desalination reality, emergency ocean water, RO vs distillation survival"
----
+# Portable Desalination: Can You Actually Get Drinking Water from the Ocean in an Emergency?
+
 [Affiliate Disclosure: This post contains affiliate links. If you use these links to buy something we may earn a commission. Thanks.]
 
 ## Introduction

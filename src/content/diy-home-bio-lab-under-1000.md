@@ -1,20 +1,4 @@
 ---
-layout: "layouts/article.njk"
-title: "DIY Home Bio Lab Under $1000"
-description: "Build home biology lab under 1000"
-date: "2026-06-07"
-category: "Technology"
-author: "ZeroFlow Editorial Team"
-heroImage: "/assets/images/diy-biolab-hero.png"
-tags:
-  - "Bio Lab"
-  - "DIY"
-  - "Biology"
-  - "Lab Equipment"
-keywords: "DIY home bio lab setup under 1000"
----
-
----
 layout: layouts/article.njk
 title: "How to Build a DIY Home Bio-Lab for Under $1,000 (PCR, Centrifuge, and Gel Electrophoresis)"
 description: "A technical guide to bootstrapping a functional synthetic biology lab for amateur research and biohacking."
@@ -40,3 +24,4 @@ A centrifuge is essential for separating components by density. For amateur labs
 To see your results, you need gel electrophoresis. This relies on the physics of electrical charge moving through a porous matrix (agarose). A DIY power supply and a transilluminator (blue light) can be built for under $100 using off-the-shelf components.
 
 **Strategic Path:** Once you master the basics of DNA amplification, the next step in sovereign health is [HBOT Physics and CO2 Management](https://github.com/Akledo/zeroflow-hub/tree/main/content/hbot-hard-vs-soft-shell-technical-physics.md) for optimized cellular recovery.
+

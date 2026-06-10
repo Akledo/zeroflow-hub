@@ -1,21 +1,4 @@
 ---
-layout: "layouts/article.njk"
-title: "LFP Battery Freezing Winter Guide"
-description: "LiFePO4 cold weather BMS storage"
-date: "2026-06-07"
-category: "Energy Storage"
-author: "ZeroFlow Editorial Team"
-heroImage: "/assets/images/winter-battery-survival-hero.png"
-tags:
-  - "Battery"
-  - "LFP"
-  - "Winter"
-  - "Cold"
-  - "Safety"
-keywords: "LFP battery freezing LiFePO4 winter"
----
-
----
 layout: layouts/article.njk
 title: "Winter Survival for Your Battery Bank: 5 Ways to Stop LFP Batteries from Freezing"
 description: "The physics of lithium plating and how to protect your LiFePO4 battery bank from permanent cold-weather damage."
@@ -41,3 +24,4 @@ If your environment is consistently sub-zero, consider [Sodium-Ion technology](h
 
 ## 4. BMS Low-Temp Cutoff
 Never use a battery in winter that doesn't have a **BMS with low-temp charging protection**. This is your final line of defense.
+

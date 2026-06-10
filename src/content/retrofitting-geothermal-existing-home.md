@@ -1,20 +1,4 @@
 ---
-layout: "layouts/article.njk"
-title: "Retrofitting Geothermal in Home"
-description: "Ground-source heat pump retrofit"
-date: "2026-06-07"
-category: "Renewable HVAC"
-author: "ZeroFlow Editorial Team"
-heroImage: "/assets/images/retrofit-geothermal-hero.png"
-tags:
-  - "Geothermal"
-  - "HVAC"
-  - "Retrofit"
-  - "ROI"
-keywords: "retrofit geothermal existing home"
----
-
----
 layout: layouts/article.njk
 title: "Can You Retrofit Geothermal Heating into an Existing Home? (Cost, Feasibility, and ROI)"
 description: "A technical assessment of the challenges and solutions for installing ground-source heat pumps in established residential properties."
@@ -39,3 +23,4 @@ The real friction in a geothermal retrofit isn't the drilling—it's the **sensi
 With the federal 30% tax credit, the typical $25,000 retrofit cost drops to $17,500. When compared to the rising cost of [Air Source Heat Pumps in extreme cold](https://github.com/Akledo/zeroflow-hub/tree/main/content/heat-pump-extreme-cold-buying-guide-2027.md), the 25-year reliability of geothermal makes it the superior long-term asset.
 
 **Strategic Link:** For a deep dive into the engineering specs of variable speed pumps, see our [Advanced Geothermal Physics Guide](https://github.com/Akledo/zeroflow-hub/tree/main/content/advanced-geothermal-variable-speed-physics-2027.md).
+
