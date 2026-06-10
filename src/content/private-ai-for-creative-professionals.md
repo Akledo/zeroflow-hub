@@ -7,6 +7,15 @@ category: Home Lab
 author: ZeroFlow Writer
 primaryKeyword: run LLM locally for writing
 keywords: [privacy focused AI for research, local Claude alternative, Llama 3 for writers guide, Ollama vs LM Studio for writers, private AI hardware requirements]
+relatedProducts:
+  - name: "Puget Systems AI Workstation"
+    description: "Whisper-quiet workstations built for creative studios and researchers. Perfect for local LLM workloads."
+    price: "Custom Quote"
+    affiliateUrl: "https://www.pugetsystems.com/?BI=zeroflow"
+  - name: "Apple MacBook Pro (M3 Max)"
+    description: "The portable choice for local AI. Unified memory allows for running massive models on the go."
+    price: "From $3,299"
+    affiliateUrl: "https://www.bhphotovideo.com/c/search?Ntt=MacBook+Pro+M3+Max&BI=zeroflow"
 ---
 
 # Data Sovereignty for Creatives: Local AI
