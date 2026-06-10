@@ -57,9 +57,14 @@
       </nav>
     </div>
   </header>
-  <main class="container">
-    {{ content | safe }}
-  </main>
+  <div class="page-layout{% if showSidebar == false %} page-layout--full{% endif %}">
+    <main class="main-content" id="main-content">
+      {{ content | safe }}
+    </main>
+    {% if showSidebar != false %}
+    {% include "sidebar.njk" %}
+    {% endif %}
+  </div>
   <footer class="site-footer">
     <div class="container">
       <p class="affiliate-disclaimer">{{ affiliates.disclaimer }}</p>
