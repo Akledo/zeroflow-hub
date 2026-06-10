@@ -8,15 +8,15 @@ schemaType: "WebApplication"
 <h1>🔌 Appliance Thermal Load Map</h1>
 <p class="hero-description">The definitive database for planning your backup power or off-grid life. Browse 100+ appliances with running watts, starting surge, BTU/hr heat output, and daily energy consumption.</p>
 
-<div id="appliance-db" class="calc-container">
-  <div class="db-controls">
-    <div class="form-row">
+<div id="appliance-db" class="zf-calculator">
+  <div class="zf-row">
+    <div class="zf-input-group">
       <label for="db-search">Search</label>
-      <input type="text" id="db-search" class="form-input db-search" placeholder="Search appliances..." autocomplete="off">
+      <input type="text" id="db-search" class="zf-input db-search" placeholder="Search appliances..." autocomplete="off">
     </div>
-    <div class="form-row">
+    <div class="zf-input-group">
       <label for="db-category">Category</label>
-      <select class="form-select db-category-filter">
+      <select class="zf-select db-category-filter">
         <option value="">All Categories</option>
         <option value="Kitchen">Kitchen</option>
         <option value="Climate">Climate</option>
@@ -28,9 +28,9 @@ schemaType: "WebApplication"
         <option value="Home">Home</option>
       </select>
     </div>
-    <div class="form-row">
+    <div class="zf-input-group">
       <label for="db-sort">Sort By</label>
-      <select class="form-select db-sort">
+      <select class="zf-select db-sort">
         <option value="cat">Category</option>
         <option value="name">Name (A-Z)</option>
         <option value="watts-asc">Watts (Low → High)</option>
