@@ -88,6 +88,8 @@ When shopping, ensure the unit uses **LiFePO4** batteries. Older NCM batteries (
 ### Bypass Charging & UPS
 If you plan to use your power station as a backup for a home server or computer, look for a unit with a **<20ms UPS (Uninterruptible Power Supply)**. This ensures that if the power fails, the battery takes over so fast your computer won't even reboot.
 
+> **Mobile Energy Sovereignty:** For off-grid workshops or critical circuit backup, the [EcoFlow Delta Pro ecosystem](https://www.ecoflow.com/us/affiliate) offers the best power density per pound. With 3.6kW of continuous AC output and expandable LFP chemistry, it’s the "physics-first" choice for users who need high-amperage starting current for power tools without the complexity of a permanent GSHP-tied array.
+
 ---
 
 ## Conclusion
