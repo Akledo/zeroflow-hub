@@ -1,0 +1,255 @@
+[33mcommit a7023d32e2ff24afbaae6e576352ce1b880f990d[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mwriter/phase12-content[m[33m, [m[1;31morigin/writer/phase12-content[m[33m)[m
+Author: Akledo <Akledo@users.noreply.github.com>
+Date:   Wed Jun 10 19:36:28 2026 +0000
+
+    Draft 3 technical articles for Phase 12 Content Batch 1
+
+src/content/hydrogen-fuel-cells-home-backup-2026.md
+src/content/llama-3-1-405b-quantization-benchmarks.md
+src/content/vawt-vs-hawt-wind-turbine-myth-buster.md
+
+[33mcommit a7352b22e1fe029b9871ac766ba01bdca86add98[m
+Merge: 3850249 22784f2
+Author: ZeroFlow Bot <bot@zeroflow.dev>
+Date:   Wed Jun 10 19:22:30 2026 +0000
+
+    Merge Phase 11 assets and monetization updates from writer
+
+[33mcommit 22784f2c5fd81cf7b3ab5e5ec855833f270d7d2f[m
+Author: Akledo <Akledo@users.noreply.github.com>
+Date:   Wed Jun 10 19:21:23 2026 +0000
+
+    Monetize core articles with Phase 11 affiliate links
+
+src/content/alen-breathesmart-75i-review.md
+src/content/best-air-quality-monitors.md
+src/content/best-ebike-conversion-kits.md
+src/content/best-home-coffee-roasters.md
+src/content/best-whole-house-ro-systems-2026.md
+src/content/joovv-vs-mito-red-light-2026.md
+src/content/oura-vs-whoop-comparison.md
+
+[33mcommit 385024983d1adbcccfb18b4d54f1fa22c261e6d2[m
+Author: ZeroFlow Bot <bot@zeroflow.dev>
+Date:   Wed Jun 10 19:20:53 2026 +0000
+
+    Phase 11: Build 7 lead magnet landing pages + MailerLite placeholders
+    
+    - Cloud Exit ROI Calculator lead magnet
+    - Geothermal Feasibility Scorecard
+    - Digital Faraday Blueprint (Mesh + NAS)
+    - 20A Dedicated Circuit DIY Protocol
+    - HEMS Interoperability Matrix
+    - Worst-Case Solar Sizing (Winter Solstice)
+    - Water Sovereignty Rainfall Audit
+    
+    Each page includes:
+    - Technical spec content from phase11 data
+    - Cover image (from shared assets)
+    - MailerLite form placeholder (disabled inputs, TODO comment)
+    - Responsive 2-column layout (content + signup card)
+    - SEO front matter, showSidebar: false
+
+scripts/build-phase11-landing.py
+src/20a-dedicated-circuit-protocol.njk
+src/assets/css/style.css
+src/assets/images/20a-safety-protocol-cover.png
+src/assets/images/cloud-exit-roi-cover.png
+src/assets/images/faraday-blueprint-cover.png
+src/assets/images/geothermal-scorecard-cover.png
+src/assets/images/hems-matrix-cover.png
+src/assets/images/roi-calculator-template.png
+src/assets/images/smart-lab-maintenance-checklist.png
+src/assets/images/solar-sizing-cover.png
+src/assets/images/v2h-compatibility-matrix.png
+src/assets/images/water-sovereignty-audit-cover.png
+src/cloud-exit-roi-lead-magnet.njk
+src/digital-faraday-blueprint.njk
+src/geothermal-feasibility-scorecard.njk
+src/hems-interoperability-matrix.njk
+src/water-sovereignty-rainfall-audit.njk
+src/winter-solar-sizing-guide.njk
+
+[33mcommit 166ce0401aa0ed42f5b3bb24dee2cdb97dfdcb3a[m
+Author: Akledo <Akledo@users.noreply.github.com>
+Date:   Wed Jun 10 19:19:31 2026 +0000
+
+    Add Phase 11 lead magnet spreadsheets and technical guides
+
+src/assets/resources/20a-dedicated-circuit-protocol.pdf
+src/assets/resources/cloud-exit-roi-calculator.xlsx
+src/assets/resources/digital-faraday-blueprint.pdf
+src/assets/resources/geothermal-feasibility-scorecard.pdf
+src/assets/resources/hems-interoperability-matrix.pdf
+src/assets/resources/water-sovereignty-rainfall-audit.xlsx
+src/assets/resources/worst-case-solar-sizing.xlsx
+[33mcommit a7023d32e2ff24afbaae6e576352ce1b880f990d[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mwriter/phase12-content[m[33m, [m[1;31morigin/writer/phase12-content[m[33m)[m
+Author: Akledo <Akledo@users.noreply.github.com>
+Date:   Wed Jun 10 19:36:28 2026 +0000
+
+    Draft 3 technical articles for Phase 12 Content Batch 1
+
+src/content/hydrogen-fuel-cells-home-backup-2026.md
+src/content/llama-3-1-405b-quantization-benchmarks.md
+src/content/vawt-vs-hawt-wind-turbine-myth-buster.md
+
+[33mcommit a7352b22e1fe029b9871ac766ba01bdca86add98[m
+Merge: 3850249 22784f2
+Author: ZeroFlow Bot <bot@zeroflow.dev>
+Date:   Wed Jun 10 19:22:30 2026 +0000
+
+    Merge Phase 11 assets and monetization updates from writer
+
+[33mcommit 22784f2c5fd81cf7b3ab5e5ec855833f270d7d2f[m
+Author: Akledo <Akledo@users.noreply.github.com>
+Date:   Wed Jun 10 19:21:23 2026 +0000
+
+    Monetize core articles with Phase 11 affiliate links
+
+src/content/alen-breathesmart-75i-review.md
+src/content/best-air-quality-monitors.md
+src/content/best-ebike-conversion-kits.md
+src/content/best-home-coffee-roasters.md
+src/content/best-whole-house-ro-systems-2026.md
+src/content/joovv-vs-mito-red-light-2026.md
+src/content/oura-vs-whoop-comparison.md
+
+[33mcommit 385024983d1adbcccfb18b4d54f1fa22c261e6d2[m
+Author: ZeroFlow Bot <bot@zeroflow.dev>
+Date:   Wed Jun 10 19:20:53 2026 +0000
+
+    Phase 11: Build 7 lead magnet landing pages + MailerLite placeholders
+    
+    - Cloud Exit ROI Calculator lead magnet
+    - Geothermal Feasibility Scorecard
+    - Digital Faraday Blueprint (Mesh + NAS)
+    - 20A Dedicated Circuit DIY Protocol
+    - HEMS Interoperability Matrix
+    - Worst-Case Solar Sizing (Winter Solstice)
+    - Water Sovereignty Rainfall Audit
+    
+    Each page includes:
+    - Technical spec content from phase11 data
+    - Cover image (from shared assets)
+    - MailerLite form placeholder (disabled inputs, TODO comment)
+    - Responsive 2-column layout (content + signup card)
+    - SEO front matter, showSidebar: false
+
+scripts/build-phase11-landing.py
+src/20a-dedicated-circuit-protocol.njk
+src/assets/css/style.css
+src/assets/images/20a-safety-protocol-cover.png
+src/assets/images/cloud-exit-roi-cover.png
+src/assets/images/faraday-blueprint-cover.png
+src/assets/images/geothermal-scorecard-cover.png
+src/assets/images/hems-matrix-cover.png
+src/assets/images/roi-calculator-template.png
+src/assets/images/smart-lab-maintenance-checklist.png
+src/assets/images/solar-sizing-cover.png
+src/assets/images/v2h-compatibility-matrix.png
+src/assets/images/water-sovereignty-audit-cover.png
+src/cloud-exit-roi-lead-magnet.njk
+src/digital-faraday-blueprint.njk
+src/geothermal-feasibility-scorecard.njk
+src/hems-interoperability-matrix.njk
+src/water-sovereignty-rainfall-audit.njk
+src/winter-solar-sizing-guide.njk
+
+[33mcommit 166ce0401aa0ed42f5b3bb24dee2cdb97dfdcb3a[m
+Author: Akledo <Akledo@users.noreply.github.com>
+Date:   Wed Jun 10 19:19:31 2026 +0000
+
+    Add Phase 11 lead magnet spreadsheets and technical guides
+
+src/assets/resources/20a-dedicated-circuit-protocol.pdf
+src/assets/resources/cloud-exit-roi-calculator.xlsx
+src/assets/resources/digital-faraday-blueprint.pdf
+src/assets/resources/geothermal-feasibility-scorecard.pdf
+src/assets/resources/hems-interoperability-matrix.pdf
+src/assets/resources/water-sovereignty-rainfall-audit.xlsx
+src/assets/resources/worst-case-solar-sizing.xlsx
+[33mcommit a7023d32e2ff24afbaae6e576352ce1b880f990d[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mwriter/phase12-content[m[33m, [m[1;31morigin/writer/phase12-content[m[33m)[m
+Author: Akledo <Akledo@users.noreply.github.com>
+Date:   Wed Jun 10 19:36:28 2026 +0000
+
+    Draft 3 technical articles for Phase 12 Content Batch 1
+
+src/content/hydrogen-fuel-cells-home-backup-2026.md
+src/content/llama-3-1-405b-quantization-benchmarks.md
+src/content/vawt-vs-hawt-wind-turbine-myth-buster.md
+
+[33mcommit a7352b22e1fe029b9871ac766ba01bdca86add98[m
+Merge: 3850249 22784f2
+Author: ZeroFlow Bot <bot@zeroflow.dev>
+Date:   Wed Jun 10 19:22:30 2026 +0000
+
+    Merge Phase 11 assets and monetization updates from writer
+
+[33mcommit 22784f2c5fd81cf7b3ab5e5ec855833f270d7d2f[m
+Author: Akledo <Akledo@users.noreply.github.com>
+Date:   Wed Jun 10 19:21:23 2026 +0000
+
+    Monetize core articles with Phase 11 affiliate links
+
+src/content/alen-breathesmart-75i-review.md
+src/content/best-air-quality-monitors.md
+src/content/best-ebike-conversion-kits.md
+src/content/best-home-coffee-roasters.md
+src/content/best-whole-house-ro-systems-2026.md
+src/content/joovv-vs-mito-red-light-2026.md
+src/content/oura-vs-whoop-comparison.md
+
+[33mcommit 385024983d1adbcccfb18b4d54f1fa22c261e6d2[m
+Author: ZeroFlow Bot <bot@zeroflow.dev>
+Date:   Wed Jun 10 19:20:53 2026 +0000
+
+    Phase 11: Build 7 lead magnet landing pages + MailerLite placeholders
+    
+    - Cloud Exit ROI Calculator lead magnet
+    - Geothermal Feasibility Scorecard
+    - Digital Faraday Blueprint (Mesh + NAS)
+    - 20A Dedicated Circuit DIY Protocol
+    - HEMS Interoperability Matrix
+    - Worst-Case Solar Sizing (Winter Solstice)
+    - Water Sovereignty Rainfall Audit
+    
+    Each page includes:
+    - Technical spec content from phase11 data
+    - Cover image (from shared assets)
+    - MailerLite form placeholder (disabled inputs, TODO comment)
+    - Responsive 2-column layout (content + signup card)
+    - SEO front matter, showSidebar: false
+
+scripts/build-phase11-landing.py
+src/20a-dedicated-circuit-protocol.njk
+src/assets/css/style.css
+src/assets/images/20a-safety-protocol-cover.png
+src/assets/images/cloud-exit-roi-cover.png
+src/assets/images/faraday-blueprint-cover.png
+src/assets/images/geothermal-scorecard-cover.png
+src/assets/images/hems-matrix-cover.png
+src/assets/images/roi-calculator-template.png
+src/assets/images/smart-lab-maintenance-checklist.png
+src/assets/images/solar-sizing-cover.png
+src/assets/images/v2h-compatibility-matrix.png
+src/assets/images/water-sovereignty-audit-cover.png
+src/cloud-exit-roi-lead-magnet.njk
+src/digital-faraday-blueprint.njk
+src/geothermal-feasibility-scorecard.njk
+src/hems-interoperability-matrix.njk
+src/water-sovereignty-rainfall-audit.njk
+src/winter-solar-sizing-guide.njk
+
+[33mcommit 166ce0401aa0ed42f5b3bb24dee2cdb97dfdcb3a[m
+Author: Akledo <Akledo@users.noreply.github.com>
+Date:   Wed Jun 10 19:19:31 2026 +0000
+
+    Add Phase 11 lead magnet spreadsheets and technical guides
+
+src/assets/resources/20a-dedicated-circuit-protocol.pdf
+src/assets/resources/cloud-exit-roi-calculator.xlsx
+src/assets/resources/digital-faraday-blueprint.pdf
+src/assets/resources/geothermal-feasibility-scorecard.pdf
+src/assets/resources/hems-interoperability-matrix.pdf
+src/assets/resources/water-sovereignty-rainfall-audit.xlsx
+src/assets/resources/worst-case-solar-sizing.xlsx
