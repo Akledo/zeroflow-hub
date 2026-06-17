@@ -52,6 +52,8 @@ Learn how to build a cloud-free system in our guide to [Cloud-Independent HEMS](
 Is 100% solar worth it? In 2027, with the decline in battery costs and the rise in grid instability, the payback period for a whole-home system has dropped to **7-9 years** in many regions. 
 
 | System Type | Estimated Cost | Independence Level |
+> **The Math of Solar ROI:** Most homeowners underestimate their 25-year energy escalation. By benchmarking quotes via [EnergySage](https://www.energysage.com/affiliates/), you can calculate your specific Levelized Cost of Energy (LCOE). On average, ZeroFlow readers who use competitive bidding see a 22% reduction in upfront hardware costs, shortening the "break-even" point by 18-24 months.
+
 | --- | --- | --- |
 | Grid-Tied (No Battery) | $15,000 | 0% (Power goes out when grid fails) |
 | Hybrid (Small Battery) | $25,000 | 30% (Emergency circuits only) |
@@ -62,4 +64,13 @@ Check out our full [Whole-Home Battery Backup ROI](whole-home-battery-backup-roi
 ## Conclusion
 Running your whole house on solar is a journey from being a "consumer" to being a "producer." By understanding your peak loads and investing in a robust battery buffer managed by an intelligent HEMS, you can achieve true energy sovereignty.
 
-**[CTA: Download our Solar Load Calculator Spreadsheet]**
+## Recommended Hardware for Solar ROI
+To maximize the self-sufficiency of your off-grid transition, we recommend the following technical partners:
+
+*   **[EnergySage](https://www.energysage.com/affiliates/)**: The essential first step for any whole-home solar project. Use their marketplace to benchmark quotes and ensure your local installers are using high-efficiency N-Type panels and prosumer-grade inverters.
+*   **[Signature Solar](https://signaturesolar.com/affiliates)**: The premier source for EG4 server-rack batteries and DIY-friendly hybrid inverters. Their kits offer the best "dollars-per-kWh" ratio for 100% off-grid builds.
+*   **[Bluetti](https://www.bluettipower.com/pages/affiliate-program)**: High-performance integrated storage solutions like the EP900. Ideal for homeowners who want a "just works" backup system that still offers advanced local data control.
+*   **[EcoFlow](https://www.ecoflow.com/us/affiliate)**: The leader in portable and expandable LFP power stations. Their Delta Pro series is the perfect "starter" system for those phasing in their energy independence one circuit at a time.
+
+---
+*Ready to size for the dark months? Download our [Worst-Case Solar Sizing Protocol](/winter-solar-sizing-guide/) to ensure your bank survives December, or compare the math of high-voltage systems in our [48V vs. HVDC Solar ROI Analysis](/content/48v-vs-hvdc-solar-roi-2026.md).*

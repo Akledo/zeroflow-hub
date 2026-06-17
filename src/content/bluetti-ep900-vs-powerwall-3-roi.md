@@ -8,6 +8,8 @@ author: "ZeroFlow Editorial Team"
 primaryKeyword: "Bluetti EP900 vs Tesla Powerwall 3"
 keywords: ["Bluetti EP900 vs Powerwall 3 specs", "residential battery cost per kWh", "solar self-consumption ROI", "LFP home battery comparison 2026", "stackable vs integrated home batteries"]
 ---
+[Affiliate Disclosure: This post contains affiliate links. If you use these links to buy something we may earn a commission. Thanks.]
+
 
 # Bluetti EP900 vs Tesla Powerwall 3: Cost-per-kWh and Self-Consumption ROI
 
@@ -66,7 +68,12 @@ For the ZeroFlow prosumer, the decision often comes down to data sovereignty.
 *   Choose the **Tesla Powerwall 3** if you are doing a clean-sheet solar install and want the lowest cost-per-kWh from a brand that "just works."
 *   Choose the **Bluetti EP900** if you are retrofitting an existing system, value modularity, or require local data control for your Home Assistant energy dashboard.
 
----
-*Mapping your home lab load? Check our [Appliance Thermal Load Map](/resources/appliance-thermal-load-map) to see how many batteries you actually need for 24-hour autonomy.*
+## Recommended Hardware for Energy ROI
+To maximize the efficiency of your solar self-consumption and TOU arbitrage, we recommend the following technical partners:
 
-> **The Math of Solar ROI:** Most homeowners underestimate their 25-year energy escalation. By benchmarking quotes via [EnergySage](https://www.energysage.com/affiliates/), you can calculate your specific Levelized Cost of Energy (LCOE) for both the Powerwall and Bluetti ecosystems. On average, ZeroFlow readers who use competitive bidding see a 22% reduction in upfront hardware costs, shortening the "break-even" point by 18-24 months.
+*   **[Bluetti](https://www.bluettipower.com/pages/affiliate-program)**: The premier choice for modular, LFP-based home storage. Their EP900 system is the industry standard for prosumers who demand local data control and stackable capacity.
+*   **[EcoFlow](https://www.ecoflow.com/us/affiliate)**: High-performance portable and semi-permanent storage solutions. Ideal for users who need high-surge capacity for off-grid workshops or critical circuit backup.
+*   **[Shelly](https://www.shelly.com/en/affiliate-program)**: The essential component for any HEMS (Home Energy Management System). Their circuit-level meters are required to automate the "Self-Consumption" logic that makes home batteries financially viable.
+
+---
+*Ready to integrate? Download our [HEMS Interoperability Matrix](/hems-interoperability-matrix/) to see which batteries play nice with local automation, or compare your options in our [V2L vs V2H Home Backup ROI Analysis](/content/v2l-vs-v2h-home-backup-roi.md).*

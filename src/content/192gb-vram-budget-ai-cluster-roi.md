@@ -7,7 +7,10 @@ category: "Home Lab"
 author: "ZeroFlow Editorial Team"
 primaryKeyword: "192GB VRAM budget AI"
 keywords: ["budget 192GB VRAM build", "Tesla P40 AI cluster ROI", "Llama 3.1 405B hardware requirements", "RTX 3060 vs Mac Studio AI", "home lab LLM inference"]
+heroImage: "/assets/images/articles/192gb-vram-budget-hero.png"
 ---
+[Affiliate Disclosure: This post contains affiliate links. If you use these links to buy something we may earn a commission. Thanks.]
+
 
 # 192GB VRAM on a Budget: Multi-GPU P40 vs RTX 3060 vs Mac Studio ROI
 
@@ -64,5 +67,12 @@ Building a 192GB VRAM cluster is a rite of passage for the 2026 prosumer.
 *   Buy the **Mac Studio** if you value silence, low power, and a "just works" experience. 
 *   Buy the **RTX 3060s** only if you need the specific CUDA-only libraries that Apple Silicon doesn't support yet.
 
+## Recommended Hardware for AI Cluster ROI
+To maximize the performance and longevity of your local LLM cluster, we recommend the following technical partners:
+
+*   **[Lambda Labs](https://lambdalabs.com/partners)**: The industry standard for high-performance AI workstations. Their validated thermal designs are essential for 24/7 inference reliability.
+*   **[B&H Photo](https://www.bhphotovideo.com/main/affiliate)**: The most reliable source for high-capacity Apple Silicon Mac Studio units and multi-GPU server components.
+*   **[Western Digital](https://www.westerndigital.com/company/partners/affiliate-program)**: High-TBW Enterprise NVMe drives are required for the frequent model-swapping and dataset shuffling involved in frontier AI research.
+
 ---
-*Ready to build? Check our [192GB AI Cluster Hardware BOM](/resources/ai-cluster-bom) for a full list of compatible risers and PSUs.*
+*Ready to build? Secure your local data sovereignty with our [Digital Faraday Blueprint](/digital-faraday-blueprint/) for off-grid LLM access, or learn about [PCM vs Liquid Cooling](/content/pcm-vs-liquid-cooling-home-lab-roi.md) for high-density GPU racks.*

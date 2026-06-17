@@ -8,6 +8,8 @@ author: "ZeroFlow Editorial Team"
 primaryKeyword: "PCM vs liquid cooling home lab"
 keywords: ["home lab heat management", "phase change material thermal storage", "liquid cooled server rack DIY", "silent home lab cooling", "thermal mass heat buffer"]
 ---
+[Affiliate Disclosure: This post contains affiliate links. If you use these links to buy something we may earn a commission. Thanks.]
+
 
 # Phase-Change Materials (PCM) vs. Liquid Cooling for High-Density Home Labs
 
@@ -55,7 +57,12 @@ This setup ensures the room stays at 72°F without an AC unit ever turning on, a
 *   Choose **Liquid Cooling** if your primary goal is maximum performance and you have a way to mount radiators outside.
 *   Choose **PCM Buffering** if you want a passive, zero-maintenance solution to prevent your office from becoming a sauna during a 4-hour model training run.
 
----
-*Designing your rack? Check our [Liquid Cooling BOM for RTX 5090 Clusters](/resources/ai-cluster-bom) for validated manifolds and PCM tanks.*
+## Recommended Hardware for Cooling ROI
+To maximize the thermal efficiency and uptime of your high-density home lab, we recommend the following technical partners:
 
-> **The Prosumer's Supply Chain:** Building a high-density home lab with PCM or liquid cooling requires more than just a fast CPU; you need validated thermal interfaces, high-efficiency pumps, and proper shielding. [B&H Photo](https://www.bhphotovideo.com/main/affiliate) remains our preferred vendor for the server-grade hardware required to build these cooling loops. Their technical spec sheets provide the granular data (throughput, thermal limits, PoE budget) that ZeroFlow prosumers require to avoid thermal throttling.
+*   **[B&H Photo](https://www.bhphotovideo.com/main/affiliate)**: The primary source for high-quality radiators, pumps, and custom cooling components. Their selection of workstation-grade hardware is essential for 24/7 liquid-cooled reliability.
+*   **[Western Digital](https://www.westerndigital.com/company/partners/affiliate-program)**: High-performance NVMe storage that maintains technical efficiency even in high-thermal environments.
+*   **[Cloudways](https://www.cloudways.com/en/affiliate-program.php)**: For hybrid-cloud workflows where you need to burst workloads to the cloud to prevent local thermal runaway during heatwaves.
+
+---
+*Building a high-draw rack? Download our [20A Dedicated Circuit DIY Protocol](/20a-dedicated-circuit-protocol/) to safely power your cluster, or read our [192GB VRAM ROI Analysis](/content/192gb-vram-budget-ai-cluster-roi.md) to choose the right GPU stack.*

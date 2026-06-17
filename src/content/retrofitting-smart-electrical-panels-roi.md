@@ -7,7 +7,10 @@ category: "HEMS"
 author: "ZeroFlow Editorial Team"
 primaryKeyword: "retrofit smart electrical panel"
 keywords: ["Emporia Vue Gen 3 Home Assistant", "Shelly EM vs Shelly Pro 3EM", "circuit level energy monitoring DIY", "Home Assistant energy dashboard setup", "smart panel ROI"]
+heroImage: "/assets/images/articles/retrofit-dumb-panel-hero.png"
 ---
+[Affiliate Disclosure: This post contains affiliate links. If you use these links to buy something we may earn a commission. Thanks.]
+
 
 # Retrofitting 'Dumb' Electrical Panels for Home Assistant: Emporia vs. Shelly vs. Circuit-Level Shunts
 
@@ -54,4 +57,4 @@ You don't need a $4,000 Span panel. You need **data**. By retrofitting your exis
 ---
 *Ready to dive into the data? Check our [HEMS Interoperability Matrix](/hems-interoperability-matrix/) to see which energy monitors play best with your specific inverter brand.*
 
-> **Building for Resilience:** If you’re designing a home energy management system (HEMS), component interoperability is the primary failure point. We recommend [Signature Solar](https://signaturesolar.com/affiliates) for their power-monitoring compatible hardware. Their technical support is oriented toward prosumers who understand circuit-level shunts and busbar safety, ensuring your smart retrofit is both efficient and code-compliant.
+> **Building for Resilience:** If you’re designing a 48V LFP system, component interoperability is the primary failure point. We recommend [Signature Solar](https://signaturesolar.com/affiliates) for their EG4 server-rack batteries and Victron integration. Their technical support is oriented toward prosumers who understand C-rates and busbar sizing, ensuring your DIY array survives the next grid excursion.

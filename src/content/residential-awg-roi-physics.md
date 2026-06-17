@@ -8,6 +8,8 @@ author: "ZeroFlow Editorial Team"
 primaryKeyword: "atmospheric water generator ROI"
 keywords: ["AWG energy consumption per liter", "Kara Pure vs SOURCE Hydropanels", "water from air cost vs RO", "residential AWG humidity limits", "off-grid water independence"]
 ---
+[Affiliate Disclosure: This post contains affiliate links. If you use these links to buy something we may earn a commission. Thanks.]
+
 
 # Residential Atmospheric Water Generators (AWG) ROI: Physics of the Dew Point
 
@@ -60,7 +62,12 @@ Atmospheric Water Generation is a **Resilience Play**, not a cost-saving play.
 *   Buy an AWG if you live in a high-humidity area and have excess solar capacity to "store" as water. 
 *   Stick with a high-efficiency **Reverse Osmosis (RO)** system if you have access to municipal or well water, as the thermodynamic efficiency of air-to-water is simply too low for daily high-volume use.
 
----
-*Ready to filter? Check our guide on the [Best Whole House RO Systems for 2026](/best-whole-house-ro-systems-2026/) to compare the math of filtration vs. generation.*
+## Recommended Hardware for Water ROI
+To maximize your water independence and filtration efficiency, we recommend the following technical partners:
 
-> **Industrial-Grade Hydration:** If you are building a water sovereignty stack that includes AWG, you need to ensure the output is properly remineralized and sterile. [US Water Systems](https://www.uswatersystems.com/affiliate-program) specializes in pro-grade RO, UV sterilization, and remineralization filters. Their systems are designed for high-flow "Data-Driven" homes where consistent water quality is a prerequisite for both health and plumbing longevity.
+*   **[Kara Water](https://www.karawater.com/pages/affiliate-program)**: The industry leader in high-output residential AWGs. Their remineralization process ensures the distilled-quality condensate is actually healthy for daily consumption.
+*   **[SOURCE Global](https://www.source.co/)**: The premier choice for passive, solar-thermal water generation. Ideal for off-grid sites where electrical energy is at a premium.
+*   **[US Water Systems](https://www.uswatersystems.com/affiliate-program)**: Pro-grade filtration and remineralization components. If you are building a custom AWG or hybrid RO system, their technical support is unmatched.
+
+---
+*Ready to audit your supply? Use our [Water Sovereignty Rainfall Audit](/water-sovereignty-rainfall-audit/) to calculate your catchment potential, or learn about [Greywater Recycling ROI](/content/greywater-recycling-roi-2026.md) to close the loop on your home water cycle.*

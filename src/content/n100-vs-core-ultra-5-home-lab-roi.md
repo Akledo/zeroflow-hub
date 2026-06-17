@@ -7,7 +7,10 @@ category: "Home Lab"
 author: "ZeroFlow Editorial Team"
 primaryKeyword: "N100 vs Core Ultra 5 home lab"
 keywords: ["Core Ultra 5 NPU ROI", "Intel N100 idle power", "local LLM hardware 2026", "Frigate AI hardware benchmarks", "Mini PC energy efficiency"]
+heroImage: "/assets/images/articles/n100-vs-core-ultra-hero.png"
 ---
+[Affiliate Disclosure: This post contains affiliate links. If you use these links to buy something we may earn a commission. Thanks.]
+
 
 # N100 vs Core Ultra 5: The ROI of NPUs in 24/7 Home Labs
 
@@ -76,7 +79,7 @@ By moving these workloads to a local **[Minisforum UH125 Pro](https://minisforum
 ## Final Verdict
 The N100 remains the king of efficiency, but the **Core Ultra 5** is the first chip that makes a fully local, cloud-independent AI life viable for the prosumer. If your goal is a "SaaS-Exit," the NPU is no longer optional—it's a requirement.
 
-> **The Prosumer's Supply Chain:** Building a low-latency 10GbE network requires more than just a fast switch; you need validated SFP+ modules and CAT6A shielding. [B&H Photo](https://www.bhphotovideo.com/main/affiliate) remains our preferred vendor for Synology hardware and Ubiquiti networking. Their technical spec sheets provide the granular data (throughput, thermal limits, PoE budget) that ZeroFlow prosumers require to avoid thermal throttling in cramped rack mounts.
+> **The Prosumer's Supply Chain:** Building a low-latency 10GbE network requires more than just a fast switch; you need validated SFP+ modules and CAT6A shielding. [B&H Photo](https://www.bhphotovideo.com/main/affiliate) remains our preferred vendor for Synology hardware and Ubiquiti networking.
 
 ---
 *Ready to start your local AI journey? Check our [Local LLM Hardware Sizing Guide](/articles/local-llm-hardware-guide) for more benchmarks.*

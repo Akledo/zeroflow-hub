@@ -8,6 +8,8 @@ author: "ZeroFlow Editorial Team"
 primaryKeyword: "DIY tDCS ROI"
 keywords: ["transcranial direct current stimulation DIY", "tDCS vs NeoRhythm ROI", "Fisher Wallace vs DIY tDCS", "neuro-modulation for focus prosumer", "cognitive performance hardware 2026"]
 ---
+[Affiliate Disclosure: This post contains affiliate links. If you use these links to buy something we may earn a commission. Thanks.]
+
 
 # Home Neuro-Modulation ROI: DIY tDCS for Cognitive Performance
 
@@ -55,8 +57,15 @@ We recommend integrating tDCS sessions during high-focus tasks (like coding or d
 
 Don't pay a "User Experience Tax" for brain stimulation. 
 *   **Avoid** any device that requires a monthly subscription to "unlock" currents. 
-*   **Invest** in precision discrete hardware or high-quality consumer units with open parameters (like the [Neuromyst](https://zeroflow.biz/affiliate/neuromyst)).
+*   **Invest** in precision discrete hardware or high-quality consumer units with open parameters.
 *   **Focus** on the math of the montage: target the Dorsolateral Prefrontal Cortex (DLPFC) for the best ROI on focus and attention.
 
+## Recommended Hardware for Neuro-Modulation ROI
+To maximize the safety and efficacy of your cognitive performance stack, we recommend the following technical partners:
+
+*   **[NeuroMyst](https://neuromyst.com/affiliates-login/)**: The prosumer gold standard for combined tDCS and tACS (Alternating Current) stimulation. Their devices offer the granular current and frequency control required for advanced montages.
+*   **[TheBrainDriver](https://thebraindriver.goaffpro.com)**: A reliable, high-precision tDCS-only unit that prioritizes circuit simplicity and technical transparency over flashy UI.
+*   **[B&H Photo](https://www.bhphotovideo.com/main/affiliate)**: The best source for the medical-grade saline, sponge electrodes, and high-precision multimeters required for validating custom DIY rigs.
+
 ---
-*Building a full biohacking stack? Check our [Home Longevity Lab ROI Calculator](/home-longevity-lab-roi-calculator-2026) to prioritize your hardware investments.*
+*Building a full biohacking stack? Secure your cognitive data sovereignty with our [Digital Faraday Blueprint](/digital-faraday-blueprint/), or use our [Home Longevity Lab ROI Calculator](/home-longevity-lab-roi-calculator-2026) to prioritize your hardware investments.*

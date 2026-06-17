@@ -8,6 +8,8 @@ author: "ZeroFlow Editorial Team"
 primaryKeyword: "agentic AI hardware requirements"
 keywords: ["tokens per second for AI agents", "local LLM latency benchmarks", "Apple Silicon for agentic loops", "HBM hardware for AI prosumer", "autonomous digital employee ROI"]
 ---
+[Affiliate Disclosure: This post contains affiliate links. If you use these links to buy something we may earn a commission. Thanks.]
+
 
 # Local LLM 'Agentic' Hardware: Why Latency Matters for Multi-Step Workflows
 
@@ -65,4 +67,4 @@ In the age of agents, **Latency is the only ROI metric that matters**.
 ---
 *Ready to scale? Check our [192GB VRAM on a Budget](/content/192gb-vram-budget-ai-cluster-roi/) guide to compare memory architectures for frontier models.*
 
-> **The Prosumer's Supply Chain:** Building a low-latency AI agent workstation requires more than just a fast CPU; you need validated high-bandwidth memory, NVMe storage, and proper networking. [B&H Photo](https://www.bhphotovideo.com/main/affiliate) remains our preferred vendor for the new hardware required to build your agentic loops. Their technical spec sheets provide the granular data (throughput, thermal limits, PoE budget) that ZeroFlow prosumers require to avoid thermal throttling.
+> **The Frontier AI Supply Chain:** Training or fine-tuning local models requires more than just consumer GPUs; you need high-bandwidth interconnects and validated thermal management. [Lambda Labs](https://lambdalabs.com/) remains our preferred source for high-end AI workstations and GPU clusters.

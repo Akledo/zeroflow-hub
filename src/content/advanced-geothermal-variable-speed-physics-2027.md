@@ -60,9 +60,12 @@ One of the most overlooked components of advanced GSHPs is the **Desuperheater**
 ## 5. Summary
 For prosumers with the capital for the initial "drilling tax," the **WaterFurnace 7 Series** represents the pinnacle of residential resilience. By leveraging variable speed physics and desuperheater byproduct energy, homeowners can decouple their comfort from the grid's volatility.
 
----
+## Recommended Hardware for Geothermal ROI
+To maximize the thermodynamic efficiency of your ground-source system, we recommend the following technical partners:
 
-*Ready to optimize your HVAC stack? Check our [Extreme Cold Heat Pump Guide](/shared/articles/heat-pump-extreme-cold-buying-guide-2027.md).*
+*   **[EnergySage](https://www.energysage.com/affiliates/)**: The industry-standard platform for comparing geothermal and heat pump quotes. Their data-driven approach ensures you are getting the best market rate for drilling and equipment.
+*   **[Dandelion Energy](https://dandelionenergy.com/)**: The leading residential geothermal provider in the US Northeast. They specialize in the precision vertical loop drilling required for high-COP variable speed units.
+*   **[Shelly](https://www.shelly.com/en/affiliate-program)**: Essential for monitoring the real-time electrical draw of your GSHP pumps and compressors, allowing for integration into wider HEMS optimization loops.
 
 ---
-*ZeroFlow Technical Guide | Phase 9: Renewable Infrastructure*
+*Ready to calculate your soil's potential? Use our [Geothermal Feasibility Scorecard](/geothermal-feasibility-scorecard/) to see if your property justifies the drilling investment, or compare the math of air-source in our [AWHP vs. Geothermal ROI Guide](/content/awhp-vs-geothermal-drilling-roi.md).*

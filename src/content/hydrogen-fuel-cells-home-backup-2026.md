@@ -54,7 +54,7 @@ In 2026, we are finally seeing "plug-and-play" hydrogen generators. The **H2SYS 
 ## 4. Cost-per-kWh Analysis
 Is it cheaper than a Powerwall? **No.**
 
-Currently, a full residential H2 stack (Enapter Electrolyzer + Storage + H2SYS Fuel Cell) costs approximately **$2,500 - $3,500 per installed kWh** at small scales. LFP sits at **$400 - $700**.
+Currently, a full residential H2 stack (Enapter Electrolyzer + Storage + H2SYS Fuel Cell) costs approximately **,500 - ,500 per installed kWh** at small scales. LFP sits at **00 - 00**.
 
 However, as you scale to **MWh-level seasonal storage** (common in northern off-grid estates), the marginal cost of adding another H2 tank is far lower than adding another 100 LFP modules.
 

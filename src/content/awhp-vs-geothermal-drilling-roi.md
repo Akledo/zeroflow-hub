@@ -7,7 +7,10 @@ category: "Renewable HVAC"
 author: "ZeroFlow Editorial Team"
 primaryKeyword: "AWHP vs Geothermal ROI"
 keywords: ["Air-to-Water Heat Pump cost 2026", "geothermal drilling price", "Chiltrix AWHP review", "radiant floor cooling efficiency", "hydronic heat pump COP"]
+heroImage: "/assets/images/articles/awhp-vs-geothermal-hero.png"
 ---
+[Affiliate Disclosure: This post contains affiliate links. If you use these links to buy something we may earn a commission. Thanks.]
+
 
 # Air-to-Water Heat Pumps (AWHP) vs Geothermal: The $20k Drilling Question
 
@@ -76,9 +79,13 @@ We recommend using the **[EnergySage Heat Pump Marketplace](https://www.energysa
 ## Final Verdict
 For the majority of prosumers in 2026, the **Air-to-Water Heat Pump** has rendered residential geothermal a luxury rather than a necessity. The $20,000 you save on drilling is better spent on a larger solar array or a 100kWh battery bank.
 
+## Recommended Hardware for HVAC ROI
+To maximize the efficiency of your hydronic or geothermal transition, we recommend the following technical partners:
+
+*   **[EnergySage](https://www.energysage.com/affiliates/)**: The essential marketplace for benchmarking heat pump quotes. Use their technical filters to find installers experienced in high-COP monobloc AWHP systems.
+*   **[Dandelion Energy](https://dandelionenergy.com/)**: If you are in the US Northeast and choose the geothermal path, Dandelion’s standardized drilling and heat pump packages offer the fastest ROI in the industry.
+*   **[Quilt](https://www.getquilt.com/)**: For those opting for air-source without the hydronic complexity, Quilt offers the most advanced, localized thermal control systems currently available.
+
 ---
-*Considering a switch? Check our [Hydronic System Design Guide](/articles/hydronic-hvac-design) for schematics and pump sizing.*
+*Ready to calculate your home's thermal potential? Use our [Geothermal Feasibility Scorecard](/geothermal-feasibility-scorecard/) to see if your soil type justifies the drilling tax, or read our deep-dive into [Advanced Geothermal Physics](/content/advanced-geothermal-variable-speed-physics-2027.md).*
 
-> **Thermodynamic Efficiency Audit:** Switching to a cold-climate Heat Pump isn't just about "going green"—it's an exercise in Coefficient of Performance (COP) optimization. Use [EnergySage](https://www.energysage.com/affiliates/) to source local installers who understand Seasonal Energy Efficiency Ratio (SEER2) and Heating Seasonal Performance Factor (HSPF2) ratings. A well-sized system can move 3 units of thermal energy for every 1 unit of electrical input, even in sub-zero conditions.
-
-> **The Ultimate Heat Sink:** For the maximum possible thermodynamic efficiency, Geothermal remains the "physics-first" gold standard. [Dandelion Energy](https://dandelionenergy.com/) simplifies the complex drilling and loop-field calculation required for residential GSHP. By tapping into the Earth's constant 55°F thermal mass, you eliminate the COP drop-off associated with air-source systems during extreme weather peaks.

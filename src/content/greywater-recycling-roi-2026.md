@@ -8,6 +8,8 @@ author: "ZeroFlow Editorial Team"
 primaryKeyword: "greywater recycling ROI"
 keywords: ["greywater system payback period", "Hydraloop vs DIY greywater", "recycling shower water for toilet", "water sovereignty cost analysis", "greywater filtration technical guide"]
 ---
+[Affiliate Disclosure: This post contains affiliate links. If you use these links to buy something we may earn a commission. Thanks.]
+
 
 # Greywater Recycling ROI: The Payback Period of Shower-to-Toilet Systems
 
@@ -68,7 +70,12 @@ Recycling shower water for toilet flushing is a technical win but a difficult fi
 *   If you want a **financial payback**, build a DIY system with high-quality components. 
 *   If you want **maximum sovereignty** and simplified maintenance, invest in a commercial unit but acknowledge it as a "Resilience" investment rather than a cost-saver.
 
----
-*Mapping your home's water flow? Download our [Water Sovereignty Rainfall Audit](/water-sovereignty-rainfall-audit/) to see how catchment compares to recycling ROI.*
+## Recommended Hardware for Greywater ROI
+To maximize the reliability and safety of your home water recycling loop, we recommend the following technical partners:
 
-> **Industrial-Grade Hydration:** Closing the water loop with greywater recycling requires high-performance pumps and UV sterilization to prevent biofilm buildup. [US Water Systems](https://www.uswatersystems.com/affiliate-program) specializes in pro-grade filtration and sterilization components. Their systems are designed for high-flow prosumer environments where consistent water quality and system longevity are the primary ROI drivers.
+*   **[Hydraloop](https://www.hydraloop.com/partners)**: The gold standard for fully automated, appliance-grade greywater recycling. Their foam fractionation technology is the only residential solution that requires zero filter replacements.
+*   **[US Water Systems](https://www.uswatersystems.com/affiliate-program)**: The best source for the UV sterilization and high-volume sediment filters required for a safe DIY greywater build.
+*   **[SpringWell Water](https://www.springwellwater.com/affiliate-program/)**: High-flow whole-house filtration that ensures the water entering your recycling loop is already free of the heavy sediment that kills greywater pumps.
+
+---
+*Mapping your home's water flow? Download our [Water Sovereignty Rainfall Audit](/water-sovereignty-rainfall-audit/) to calculate your catchment potential, or compare the math of water generation in our [Atmospheric Water Generator ROI Guide](/content/residential-awg-roi-physics.md).*

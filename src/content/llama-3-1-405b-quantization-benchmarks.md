@@ -50,11 +50,11 @@ While 1.5 TPS sounds slow, it is faster than a human can read. For complex resea
     - **Warning:** Offloading a 405B model to system RAM (DDR5) will drop speed to **0.1 - 0.3 TPS**—essentially unusable for interactive chat.
 
 ## 4. Cost-per-Inference Analysis
-Why build a $15,000 GPU cluster when you can use the OpenAI/Meta API?
+Why build a 5,000 GPU cluster when you can use the OpenAI/Meta API?
 
 1. **Privacy:** 100% private data. No "Model Training" on your IP.
 2. **Censorship:** Zero filters. The model answers what you ask.
-3. **Break-Even:** At current API prices ($5/million tokens for GPT-4o level), a power-user generating 50 million tokens per year will break even on a local 405B rig in **18-24 months**.
+3. **Break-Even:** At current API prices (/million tokens for GPT-4o level), a power-user generating 50 million tokens per year will break even on a local 405B rig in **18-24 months**.
 
 ## 5. Hardware Strategy: The WRX90 Solution
 Building a 10x GPU rig is not possible on consumer motherboards (Z790/X670). You need the **WRX90 Threadripper** platform.

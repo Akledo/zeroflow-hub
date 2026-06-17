@@ -7,7 +7,10 @@ category: "Solar & Energy"
 author: "ZeroFlow Editorial Team"
 primaryKeyword: "48V vs HVDC solar"
 keywords: ["48V solar system cost", "high voltage DC inverter benefits", "Victron RS vs Sol-Ark 15K", "DIY solar cable sizing", "Ohm's law solar efficiency"]
+heroImage: "/assets/images/articles/48v-vs-120v-solar-hero.png"
 ---
+[Affiliate Disclosure: This post contains affiliate links. If you use these links to buy something we may earn a commission. Thanks.]
+
 
 # 48V vs 120V DIY Solar: When to Move to High-Voltage DC (HVDC) Inverters
 
@@ -66,9 +69,8 @@ However, if you are building a **Whole-Home Backup** system or your array is loc
 
 The transition to High-Voltage DC is the "Phase 2" of the solar revolution. While 48V will always have a place in van life and small off-grid cabins, the **HVDC prosumer inverter** is the correct technical choice for the modern high-density home lab.
 
-> **The Math of Solar ROI:** Most homeowners underestimate their 25-year energy escalation. By benchmarking quotes via [EnergySage](https://www.energysage.com/affiliates/), you can calculate your specific Levelized Cost of Energy (LCOE). On average, ZeroFlow readers who use competitive bidding see a 22% reduction in upfront hardware costs, shortening the "break-even" point by 18-24 months.
-
 > **Building for Resilience:** If you’re designing a 48V LFP system, component interoperability is the primary failure point. We recommend [Signature Solar](https://signaturesolar.com/affiliates) for their EG4 server-rack batteries and Victron integration. Their technical support is oriented toward prosumers who understand C-rates and busbar sizing, ensuring your DIY array survives the next grid excursion.
+
 
 ---
 *Building for resilience? Check our [Winter Solstice Solar Sizing Protocol](/winter-solar-sizing-guide/) to ensure your array survives the shortest days of the year.*
