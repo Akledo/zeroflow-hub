@@ -1,20 +1,20 @@
 ---
 layout: layouts/article.njk
-title: \"Micro-Hydro ROI: The 'Battery-Killer' Base-Load Solution\"
-description: \"Solar sleeps at night. Wind is fickle. Micro-hydro is the only 24/7 renewable energy source for prosumers. We analyze the ROI and physics of residential hydropower.\"
+title: "Micro-Hydro ROI: The 'Battery-Killer' Base-Load Solution"
+description: "Solar sleeps at night. Wind is fickle. Micro-hydro is the only 24/7 renewable energy source for prosumers. We analyze the ROI and physics of residential hydropower."
 date: 2026-06-19
-category: \"Renewable Energy\"
-author: \"ZeroFlow Research Team\"
+category: "Renewable Energy"
+author: "ZeroFlow Research Team"
 tags:
-  - \"Micro-Hydro\"
-  - \"Off-Grid\"
-  - \"Energy ROI\"
-  - \"PowerSpout\"
-  - \"Base-Load\"
-keywords: \"Micro-hydro vs solar ROI comparison, Low head hydro turbine for small streams, Powerspout PLT vs Turgo efficiency, residential micro hydro cost per kWh, hydro turbine head and flow calculator\"
-heroImage: \"/assets/images/articles/micro-wind-turbine-hero.png\"
+  - "Micro-Hydro"
+  - "Off-Grid"
+  - "Energy ROI"
+  - "PowerSpout"
+  - "Base-Load"
+keywords: "Micro-hydro vs solar ROI comparison, Low head hydro turbine for small streams, Powerspout PLT vs Turgo efficiency, residential micro hydro cost per kWh, hydro turbine head and flow calculator"
+heroImage: "/assets/images/articles/micro-wind-turbine-hero.png"
 ---
-# Micro-Hydro ROI: The \"Battery-Killer\" Base-Load Solution
+# Micro-Hydro ROI: The "Battery-Killer" Base-Load Solution
 
 If you’re building an off-grid power system, your first instinct is likely to buy more solar panels and a bigger battery bank. But if you have moving water on your property—even a small, seasonal stream—you might be overlooking the most cost-effective energy source in existence: **Micro-Hydro.**
 

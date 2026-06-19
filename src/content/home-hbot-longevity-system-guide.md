@@ -1,18 +1,18 @@
 ---
 layout: layouts/article.njk
-title: \"Home Hyperbaric Oxygen Therapy (HBOT): Longevity Hardware Specs & ROI\"
-description: \"From clinical settings to the home bio-lab. We break down the technical requirements for home HBOT systems, including PSI ratings and oxygen concentrator pairing.\"
+title: "Home Hyperbaric Oxygen Therapy (HBOT): Longevity Hardware Specs & ROI"
+description: "From clinical settings to the home bio-lab. We break down the technical requirements for home HBOT systems, including PSI ratings and oxygen concentrator pairing."
 date: 2026-06-19
-category: \"Biohacking\"
-author: \"ZeroFlow Research Team\"
+category: "Biohacking"
+author: "ZeroFlow Research Team"
 tags:
-  - \"HBOT\"
-  - \"Longevity\"
-  - \"Biohacking\"
-  - \"Oxygen Therapy\"
-  - \"Health Tech\"
-keywords: \"soft shell hyperbaric chamber for home use, hyperbaric chamber oxygen concentrator requirements, hbot chamber technical specs comparisons, portable hyperbaric chamber pressure psi guide, longevity hardware for home biohacking\"
-heroImage: \"/assets/images/articles/hbot-physics-hero.png\"
+  - "HBOT"
+  - "Longevity"
+  - "Biohacking"
+  - "Oxygen Therapy"
+  - "Health Tech"
+keywords: "soft shell hyperbaric chamber for home use, hyperbaric chamber oxygen concentrator requirements, hbot chamber technical specs comparisons, portable hyperbaric chamber pressure psi guide, longevity hardware for home biohacking"
+heroImage: "/assets/images/articles/hbot-physics-hero.png"
 ---
 # Home Hyperbaric Oxygen Therapy (HBOT): Longevity Hardware Specs & ROI
 

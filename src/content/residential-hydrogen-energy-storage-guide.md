@@ -1,18 +1,18 @@
 ---
 layout: layouts/article.njk
-title: \"Residential Hydrogen Energy: Seasonal Storage for Off-Grid Sovereignty\"
-description: \"Lithium isn't enough for winter. We analyze the ROI and technical complexity of DIY hydrogen electrolyzers and fuel cell backup systems for residential use.\"
+title: "Residential Hydrogen Energy: Seasonal Storage for Off-Grid Sovereignty"
+description: "Lithium isn't enough for winter. We analyze the ROI and technical complexity of DIY hydrogen electrolyzers and fuel cell backup systems for residential use."
 date: 2026-06-19
-category: \"Future Tech\"
-author: \"ZeroFlow Research Team\"
+category: "Future Tech"
+author: "ZeroFlow Research Team"
 tags:
-  - \"Hydrogen\"
-  - \"Off-Grid\"
-  - \"Energy Storage\"
-  - \"Electrolyzer\"
-  - \"Fuel Cell\"
-keywords: \"DIY hydrogen electrolyzer solar setup, residential hydrogen fuel cell backup cost, green hydrogen seasonal energy storage home, hydrogen storage tanks for residential use, hydrogen fuel cell vs li-ion for off-grid\"
-heroImage: \"/assets/images/articles/winter-battery-survival-hero.png\"
+  - "Hydrogen"
+  - "Off-Grid"
+  - "Energy Storage"
+  - "Electrolyzer"
+  - "Fuel Cell"
+keywords: "DIY hydrogen electrolyzer solar setup, residential hydrogen fuel cell backup cost, green hydrogen seasonal energy storage home, hydrogen storage tanks for residential use, hydrogen fuel cell vs li-ion for off-grid"
+heroImage: "/assets/images/articles/winter-battery-survival-hero.png"
 ---
 # Residential Hydrogen Energy: Seasonal Storage for Off-Grid Sovereignty
 

@@ -1,18 +1,18 @@
 ---
 layout: layouts/article.njk
-title: \"NPU-Accelerated Edge AI: Hardware ROI & Benchmarks 2026\"
-description: \"Ditch the GPU heater. We benchmark Intel Lunar Lake and AMD Strix Point NPUs for local Whisper and Frigate workloads to find the best cloud-exit AI hardware.\"
+title: "NPU-Accelerated Edge AI: Hardware ROI & Benchmarks 2026"
+description: "Ditch the GPU heater. We benchmark Intel Lunar Lake and AMD Strix Point NPUs for local Whisper and Frigate workloads to find the best cloud-exit AI hardware."
 date: 2026-06-19
-category: \"Edge Computing\"
-author: \"ZeroFlow Research Team\"
+category: "Edge Computing"
+author: "ZeroFlow Research Team"
 tags:
-  - \"NPU\"
-  - \"Edge AI\"
-  - \"Intel Lunar Lake\"
-  - \"AMD Ryzen AI\"
-  - \"Local LLM\"
-keywords: \"Intel Lunar Lake NPU benchmarks Whisper, AMD Ryzen AI 300 local LLM performance, Cloud-exit AI hardware ROI, NPU vs GPU power consumption AI, Whisper inference on NPU OpenVINO\"
-heroImage: \"/assets/images/articles/local-ai-vs-cloud-hero.png\"
+  - "NPU"
+  - "Edge AI"
+  - "Intel Lunar Lake"
+  - "AMD Ryzen AI"
+  - "Local LLM"
+keywords: "Intel Lunar Lake NPU benchmarks Whisper, AMD Ryzen AI 300 local LLM performance, Cloud-exit AI hardware ROI, NPU vs GPU power consumption AI, Whisper inference on NPU OpenVINO"
+heroImage: "/assets/images/articles/local-ai-vs-cloud-hero.png"
 ---
 # NPU-Accelerated Edge AI: Hardware ROI & Benchmarks 2026
 

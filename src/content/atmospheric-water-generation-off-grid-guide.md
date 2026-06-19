@@ -1,18 +1,18 @@
 ---
 layout: layouts/article.njk
-title: \"Atmospheric Water Generation (AWG): Mining the Air for Water Sovereignty\"
-description: \"Arid climates and contaminated grids are driving a new trend: making water from thin air. We analyze the energy efficiency and ROI of residential AWG systems.\"
+title: "Atmospheric Water Generation (AWG): Mining the Air for Water Sovereignty"
+description: "Arid climates and contaminated grids are driving a new trend: making water from thin air. We analyze the energy efficiency and ROI of residential AWG systems."
 date: 2026-06-19
-category: \"Future Tech\"
-author: \"ZeroFlow Research Team\"
+category: "Future Tech"
+author: "ZeroFlow Research Team"
 tags:
-  - \"AWG\"
-  - \"Water Sovereignty\"
-  - \"Off-Grid\"
-  - \"Watergen\"
-  - \"Sustainability\"
-keywords: \"atmospheric water generator for off grid living, water from air machine for home use, solar powered atmospheric water generator cost, watergen home edition review, energy consumption of atmospheric water generators\"
-heroImage: \"/assets/images/articles/whole-house-ro-hero.png\"
+  - "AWG"
+  - "Water Sovereignty"
+  - "Off-Grid"
+  - "Watergen"
+  - "Sustainability"
+keywords: "atmospheric water generator for off grid living, water from air machine for home use, solar powered atmospheric water generator cost, watergen home edition review, energy consumption of atmospheric water generators"
+heroImage: "/assets/images/articles/whole-house-ro-hero.png"
 ---
 # Atmospheric Water Generation (AWG): Mining the Air for Water Sovereignty
 
