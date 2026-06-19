@@ -12,6 +12,7 @@ tags:
   - "Benchmark"
   - "Hardware"
 keywords: "PCIe P2P bottleneck, multi-GPU LLM inference, PCIe 3.0 vs 4.0 risers, VRAM pooling P2P, prosumer AI cluster motherboard"
+heroImage: "/assets/images/articles/192gb-vram-budget-hero.png"
 ---
 
 # PCIe P2P Bottleneck Audit for LLM Clusters: Performance-per-Dollar Loss on Budget Riser Configs
@@ -105,15 +106,18 @@ Building a multi-GPU LLM inference rig on a budget often means using mining-styl
 
 | Platform | PCIe Lanes | GPUs | Cost | Best For |
 |----------|-----------|------|------|----------|
-| Threadripper PRO 5000WX | 128 Gen4 | 4× x16 | ~$2,500 | 4-GPU clusters, 70B–405B |
-| Core i9-14900K + Z790 | 20 Gen4 | 2× x8/x8 | ~$800 | 2-GPU, <180B models |
-| Ryzen 5950X + X570 | 24 Gen4 | 2× x8/x8 | ~$600 | Budget 2-GPU builds |
+| [Threadripper PRO 5000WX](https://www.bhphotovideo.com/c/search?Ntt=Threadripper+PRO+5000WX) | 128 Gen4 | 4× x16 | ~$2,500 | 4-GPU clusters, 70B–405B |
+| [Core i9-14900K](https://www.bhphotovideo.com/c/search?Ntt=Intel+Core+i9-14900K) + Z790 | 20 Gen4 | 2× x8/x8 | ~$800 | 2-GPU, <180B models |
+| [Ryzen 5950X](https://www.bhphotovideo.com/c/search?Ntt=AMD+Ryzen+5950X) + X570 | 24 Gen4 | 2× x8/x8 | ~$600 | Budget 2-GPU builds |
 | H610/B660 boards | 16 Gen4 | 1× x16 | ~$200 | 🚫 Avoid for multi-GPU |
 
 ## 5. Key Takeaways
 
 1. **Never use PCIe 3.0 x1 risers for multi-GPU LLM** — 40–60% loss
-2. **PCIe 3.0 x4 risers** are the minimum acceptable (10–40% loss)
-3. **2× RTX 3090 + x4 risers** = best performance-per-dollar ($12/t/s)
-4. **Threadripper PRO** is the ideal 4+ GPU platform
-5. **Bifurcation** (x8/x8) works well — only 7% loss vs full x16
+2. **PCIe 3.0 x4 risers** are the minimum acceptable (10–40% loss). We recommend high-quality [ADT-Link risers](https://amzn.to/3Vriser-placeholder).
+3. **2× RTX 3090 + x4 risers** = best performance-per-dollar ($12/t/s). Check used market or [B&H for RTX 4090 alternatives](https://www.bhphotovideo.com/c/search?Ntt=RTX+4090).
+4. **Threadripper PRO** is the ideal 4+ GPU platform.
+5. **Bifurcation** (x8/x8) works well — only 7% loss vs full x16.
+
+---
+*Building a high-power inference rig? Ensure your power delivery is solid with our [Sodium-Ion BMS Configuration Guide](/content/sodium-ion-bms-config-guide.md) or compare long-term storage options in our [DIY Sodium-Ion vs LFP Cost Analysis](/content/diy-sodium-ion-vs-lfp-2026.md).*
