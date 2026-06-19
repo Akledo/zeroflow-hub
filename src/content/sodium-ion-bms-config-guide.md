@@ -73,7 +73,7 @@ One of the most significant "ROI" features of Sodium-Ion is its ability to be sh
 
 ## 4. Recommended Hardware
 
-To build a resilient Na-Ion system, ensure your BMS is "Chemistry Agnostic" (fully programmable). 
+To build a resilient Na-Ion system, ensure your BMS is "Chemistry Agnostic" (fully programmable). High-power users running [multi-GPU LLM clusters](/content/pcie-p2p-bottleneck-llm-clusters/) should pay special attention to discharge rates and busbar sizing.
 
 *   **[Signature Solar (EG4 Na-Ion Kits)](https://signaturesolar.com/affiliates)**: The premier source for validated Sodium-Ion server-rack modules that include pre-configured BMS units.
 *   **[BigBattery (Na-Ion Series)](https://bigbattery.com/partners)**: High-density Sodium-Ion solutions for mobile and off-grid applications.
