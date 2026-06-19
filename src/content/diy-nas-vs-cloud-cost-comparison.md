@@ -25,3 +25,12 @@ Beyond cost, the NAS offers **Data Sovereignty**. Your photos aren't being scann
 ## 3. Hardware Choice: TrueNAS vs. Unraid
 [TrueNAS](https://github.com/Akledo/zeroflow-hub/tree/main/content/home-lab-privacy-guide.md) offers the best data integrity via ZFS, while Unraid provides the easiest upgrade path for mixed-size drives.
 
+## Recommended Hardware for NAS ROI
+To maximize the reliability and performance of your private cloud, we recommend the following technical partners:
+*   **[B&H Photo](https://www.bhphotovideo.com/main/affiliate)**: The premier source for Synology and QNAP hardware. Their expert staff and detailed technical specs make them the most reliable vendor for high-performance home server components.
+*   **[Western Digital](https://www.westerndigital.com/company/partners/affiliate-program)**: We standardize our builds on WD Red Pro and Gold drives for their superior vibration tolerance and MTBF (Mean Time Between Failures) ratings in high-density arrays.
+*   **[Cloudways](https://www.cloudways.com/en/affiliate-program.php)**: For prosumers who need a \"Hybrid\" approach, hosting public-facing services on Cloudways while keeping private data on local NAS hardware is the ultimate sovereignty play.
+
+---
+*Ready to stop renting your digital life? Use our [Cloud Exit ROI Calculator](/cloud-exit-roi-lead-magnet/) to see how much you'll save by ditching Google and iCloud, or compare the technical specs in our [Best NAS for Home Media Guide](/content/best-nas-home-media.md).*
+

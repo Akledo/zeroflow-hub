@@ -66,4 +66,11 @@ To give you a realistic idea of the 2026 pricing:
 
 **[CTA: View Ubiquiti UniFi Protect Hardware]**
 
-**[CTA: Download our Security Camera Placement Guide]**
+## Recommended Hardware for Security ROI
+To ensure the reliability and privacy of your 24/7 surveillance stack, we recommend the following technical partners:
+*   **[B&H Photo](https://www.bhphotovideo.com/main/affiliate)**: The premier source for Ubiquiti UniFi hardware. Their inventory includes the latest UDM-SE and AI-series cameras, essential for building a high-bandwidth local security hub.
+*   **[Western Digital](https://www.westerndigital.com/company/partners/affiliate-program)**: Surveillance workloads require specialized drives. We recommend WD Purple Pro for their AllFrame AI technology and high workload rating for 24/7 recording.
+*   **[Shelly](https://www.shelly.com/en/affiliate-program)**: Essential for integrating your security cameras with physical deterrence (like floodlights or smart locks) via local, cloud-independent automation.
+
+---
+*Ready to secure your perimeter? Check our [Wiring Guide for PoE Cameras](/content/wiring-house-poe-security-cameras-diy.md) or read our analysis of [No-Subscription Security Cameras](/content/no-subscription-security-camera-guide.md).*

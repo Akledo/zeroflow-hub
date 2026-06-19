@@ -69,4 +69,11 @@ Building a Multi-GPU RTX 5090 Home Lab is the ultimate upgrade for the sovereign
 
 Ready to integrate your lab with your home energy system? See our guide on [Cloud-Independent HEMS](cloud-independent-hems-victron-ha-yellow-2027.md) for predictive AI optimization.
 
-**[CTA: Join our newsletter for AI Infrastructure Blueprints]**
+## Recommended Hardware for AI Clusters
+To ensure the electrical and thermal stability of your Blackwell cluster, we recommend the following technical partners:
+*   **[B&H Photo](https://www.bhphotovideo.com/main/affiliate)**: Our preferred vendor for high-wattage ATX 3.1 power supplies and PCIe Gen5 motherboards. Their technical inventory is tailored for high-performance computing builds.
+*   **[Lambda Labs](https://lambdalabs.com/partners)**: The gold standard for GPU-accelerated software stacks. If you are building a multi-GPU system, their "Lambda Stack" is essential for managing local Blackwell inference.
+*   **[Shelly](https://www.shelly.com/en/affiliate-program)**: Use Shelly Pro 3EM meters to monitor the 20A circuit load of your AI lab, ensuring you stay within the safety margins of your home electrical panel.
+
+---
+*Ready to integrate your lab with your home energy system? See our guide on [Cloud-Independent HEMS](/content/cloud-independent-hems-victron-ha-yellow-2027.md) for predictive AI optimization or join our newsletter for more AI infrastructure blueprints.*

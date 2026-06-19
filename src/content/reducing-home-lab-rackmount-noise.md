@@ -20,5 +20,13 @@ Standard server fans are high-RPM units designed for maximum static pressure. Re
 Doubling the distance from the server reduces the SPL by 6dB. Combined with a sound-dampened enclosure (using mass-loaded vinyl), you can bring a screaming rig down to a 35dB "Quiet Library" level.
 
 ## 3. Liquid Cooling: The Final Frontier
-For high-density AI workloads (multi-RTX 5090), traditional air cooling cannot be both quiet and effective. See our guide on [Liquid-Cooled Server Racks](https://github.com/Akledo/zeroflow-hub/tree/main/content/liquid-cooling-server-racks-residential-physics-2027.md) for the ultimate silent solution.
+For high-density AI workloads (multi-RTX 5090), traditional air cooling cannot be both quiet and effective. See our guide on [Liquid-Cooled Server Racks](/content/liquid-cooling-server-racks-residential-physics-2027.md) for the ultimate silent solution.
+
+## Recommended Hardware for Silent ROI
+To achieve data-center performance without the data-center noise, we recommend the following technical partners:
+*   **[B&H Photo](https://www.bhphotovideo.com/main/affiliate)**: Our primary source for Noctua industrial-grade fans and silent rackmount chassis. Their technical inventory allows prosumers to source the exact static pressure ratings needed for quiet AI builds.
+*   **[Western Digital](https://www.westerndigital.com/company/partners/affiliate-program)**: High-capacity NAS drives can be the loudest part of a silent build. We recommend WD Red Pro drives for their superior acoustics and vibration-dampening tech in multi-bay systems.
+
+---
+*Ready to scale your silent lab? Check our [Multi-GPU RTX 5090 Home Lab Design](/content/multi-gpu-rtx-5090-home-lab-design-2027.md) for more infrastructure blueprints.*
 
