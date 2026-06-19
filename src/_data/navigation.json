@@ -3,6 +3,7 @@
   { "label": "Cloud Exit ROI", "url": "/cloud-exit-roi-calculator/" },
   { "label": "Appliance Load Map", "url": "/appliance-thermal-load-map/" },
   { "label": "Off-Grid Estimator", "url": "/off-grid-survival-estimator/" },
+  { "label": "Technical Authority", "url": "/authority/" },
   { "label": "About", "url": "/about/" },
   { "label": "Editorial", "url": "/editorial-guidelines/" },
   { "label": "Privacy", "url": "/privacy/" },
