@@ -1,5 +1,11 @@
 {
   "disclaimer": "Some links on this site are affiliate links. We may earn a commission at no extra cost to you.",
   "defaultAffiliateId": "",
-  "programs": []
+  "programs": [],
+  "awin": {
+    "apiKey": "1b4d856d-619a-4d61-9a0f-7026aeaef836",
+    "publisherId": "",
+    "baseUrl": "https://ui.awin.com",
+    "apiBase": "https://api.awin.com"
+  }
 }
