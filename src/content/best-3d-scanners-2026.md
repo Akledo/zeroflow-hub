@@ -5,7 +5,7 @@ description: "Top 3D scanners Revopoint Creality Einscan"
 date: "2026-06-07"
 category: "Technology"
 author: "ZeroFlow Editorial Team"
-heroImage: "/assets/images/best-3d-scanners-hero.png"
+hero: "/assets/images/best-3d-scanners-hero.png"
 tags:
   - "3D Scanner"
   - "Hardware"

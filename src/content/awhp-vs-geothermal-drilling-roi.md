@@ -7,7 +7,7 @@ category: "Renewable HVAC"
 author: "ZeroFlow Editorial Team"
 primaryKeyword: "AWHP vs Geothermal ROI"
 keywords: ["Air-to-Water Heat Pump cost 2026", "geothermal drilling price", "Chiltrix AWHP review", "radiant floor cooling efficiency", "hydronic heat pump COP"]
-heroImage: "/assets/images/articles/awhp-vs-geothermal-hero.png"
+hero: "/assets/images/articles/awhp-vs-geothermal-hero.png"
 ---
 [Affiliate Disclosure: This post contains affiliate links. If you use these links to buy something we may earn a commission. Thanks.]
 

@@ -7,7 +7,7 @@ category: "Solar & Energy"
 author: "ZeroFlow Editorial Team"
 primaryKeyword: "48V vs HVDC solar"
 keywords: ["48V solar system cost", "high voltage DC inverter benefits", "Victron RS vs Sol-Ark 15K", "DIY solar cable sizing", "Ohm's law solar efficiency"]
-heroImage: "/assets/images/articles/48v-vs-120v-solar-hero.png"
+hero: "/assets/images/articles/48v-vs-120v-solar-hero.png"
 ---
 [Affiliate Disclosure: This post contains affiliate links. If you use these links to buy something we may earn a commission. Thanks.]
 

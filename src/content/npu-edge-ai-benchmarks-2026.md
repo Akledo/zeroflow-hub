@@ -12,7 +12,7 @@ tags:
   - "AMD Ryzen AI"
   - "Local LLM"
 keywords: "Intel Lunar Lake NPU benchmarks Whisper, AMD Ryzen AI 300 local LLM performance, Cloud-exit AI hardware ROI, NPU vs GPU power consumption AI, Whisper inference on NPU OpenVINO"
-heroImage: "/assets/images/articles/local-ai-vs-cloud-hero.png"
+hero: "/assets/images/articles/local-ai-vs-cloud-hero.png"
 ---
 # NPU-Accelerated Edge AI: Hardware ROI & Benchmarks 2026
 

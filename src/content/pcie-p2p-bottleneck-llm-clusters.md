@@ -12,7 +12,7 @@ tags:
   - "Benchmark"
   - "Hardware"
 keywords: "PCIe P2P bottleneck, multi-GPU LLM inference, PCIe 3.0 vs 4.0 risers, VRAM pooling P2P, prosumer AI cluster motherboard"
-heroImage: "/assets/images/articles/192gb-vram-budget-hero.png"
+hero: "/assets/images/pcie-p2p-bottleneck-hero.png"
 ---
 
 # PCIe P2P Bottleneck Audit for LLM Clusters: Performance-per-Dollar Loss on Budget Riser Configs

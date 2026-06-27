@@ -7,7 +7,7 @@ category: "HEMS"
 author: "ZeroFlow Editorial Team"
 primaryKeyword: "V2L home backup ROI"
 keywords: ["EV vehicle to load home power", "Hyundai Ioniq 5 V2L capacity", "V2H vs Tesla Powerwall ROI", "EV battery degradation backup", "bi-directional charging 2026"]
-heroImage: "/assets/images/articles/v2l-whole-home-ups-hero.png"
+hero: "/assets/images/articles/v2l-whole-home-ups-hero.png"
 ---
 [Affiliate Disclosure: This post contains affiliate links. If you use these links to buy something we may earn a commission. Thanks.]
 

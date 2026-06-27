@@ -12,7 +12,7 @@ tags:
   - "Oxygen Therapy"
   - "Health Tech"
 keywords: "soft shell hyperbaric chamber for home use, hyperbaric chamber oxygen concentrator requirements, hbot chamber technical specs comparisons, portable hyperbaric chamber pressure psi guide, longevity hardware for home biohacking"
-heroImage: "/assets/images/articles/hbot-physics-hero.png"
+hero: "/assets/images/articles/hbot-physics-hero.png"
 ---
 # Home Hyperbaric Oxygen Therapy (HBOT): Longevity Hardware Specs & ROI
 

@@ -12,7 +12,7 @@ tags:
   - "QuantumScape"
   - "Factorial"
 keywords: "Solid-state battery roadmap 2026, QuantumScape B-sample status, SSB vs LiFePO4 safety, prosumer solid state battery availability, solid electrolyte vs liquid electrolyte"
-heroImage: "/assets/images/articles/winter-battery-survival-hero.png"
+hero: "/assets/images/articles/winter-battery-survival-hero.png"
 ---
 
 # The Post-Sodium Era: A 2026 Solid-State Battery Roadmap for Prosumers

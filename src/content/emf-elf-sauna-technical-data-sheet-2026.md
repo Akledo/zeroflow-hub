@@ -5,7 +5,7 @@ description: "EMF measurements in sauna models"
 date: "2026-06-07"
 category: "Biohacking"
 author: "ZeroFlow Editorial Team"
-heroImage: "/assets/images/emf-sauna-safety-hero.png"
+hero: "/assets/images/emf-sauna-safety-hero.png"
 tags:
   - "EMF"
   - "Sauna"

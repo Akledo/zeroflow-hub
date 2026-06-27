@@ -5,7 +5,7 @@ description: "CGM for biohacking Dexcom Libre glucose"
 date: "2026-06-07"
 category: "Biohacking"
 author: "ZeroFlow Editorial Team"
-heroImage: "/assets/images/cgm-accuracy-guide-hero.png"
+hero: "/assets/images/cgm-accuracy-guide-hero.png"
 tags:
   - "CGM"
   - "Longevity"

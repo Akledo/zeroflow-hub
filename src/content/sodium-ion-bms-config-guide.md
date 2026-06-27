@@ -11,7 +11,7 @@ tags:
   - "Energy Storage"
   - "DIY"
 keywords: "sodium-ion BMS configuration, Na-Ion voltage settings, JBD BMS sodium-ion, Daly BMS sodium-ion, JK BMS sodium-ion, zero-volt battery storage"
-heroImage: "/assets/images/articles/sodium-ion-bms-protocol-hero.png"
+hero: "/assets/images/bms-sodium-ion-hero.png"
 ---
 
 # BMS Configuration Guide for Sodium-Ion Batteries: Bridging the 1.5V Gap

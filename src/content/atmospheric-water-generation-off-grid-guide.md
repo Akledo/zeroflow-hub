@@ -12,7 +12,7 @@ tags:
   - "Watergen"
   - "Sustainability"
 keywords: "atmospheric water generator for off grid living, water from air machine for home use, solar powered atmospheric water generator cost, watergen home edition review, energy consumption of atmospheric water generators"
-heroImage: "/assets/images/articles/whole-house-ro-hero.png"
+hero: "/assets/images/articles/whole-house-ro-hero.png"
 ---
 # Atmospheric Water Generation (AWG): Mining the Air for Water Sovereignty
 

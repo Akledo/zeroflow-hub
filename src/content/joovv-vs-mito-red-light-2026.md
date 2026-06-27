@@ -5,7 +5,7 @@ description: "Joovv vs Mito irradiance wavelength"
 date: "2026-06-07"
 category: "Biohacking"
 author: "ZeroFlow Editorial Team"
-heroImage: "/assets/images/joovv-vs-mito-hero.png"
+hero: "/assets/images/joovv-vs-mito-hero.png"
 tags:
   - "Red Light"
   - "Therapy"

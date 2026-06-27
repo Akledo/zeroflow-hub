@@ -7,7 +7,7 @@ category: "HEMS"
 author: "ZeroFlow Editorial Team"
 primaryKeyword: "retrofit smart electrical panel"
 keywords: ["Emporia Vue Gen 3 Home Assistant", "Shelly EM vs Shelly Pro 3EM", "circuit level energy monitoring DIY", "Home Assistant energy dashboard setup", "smart panel ROI"]
-heroImage: "/assets/images/articles/retrofit-dumb-panel-hero.png"
+hero: "/assets/images/articles/retrofit-dumb-panel-hero.png"
 ---
 [Affiliate Disclosure: This post contains affiliate links. If you use these links to buy something we may earn a commission. Thanks.]
 

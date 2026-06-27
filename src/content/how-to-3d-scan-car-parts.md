@@ -5,7 +5,7 @@ description: "3D scanning car parts techniques CAD"
 date: "2026-06-07"
 category: "Technology"
 author: "ZeroFlow Editorial Team"
-heroImage: "/assets/images/3d-scan-car-parts-hero.png"
+hero: "/assets/images/3d-scan-car-parts-hero.png"
 tags:
   - "3D Scan"
   - "Car"

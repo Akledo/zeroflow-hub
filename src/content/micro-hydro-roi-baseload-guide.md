@@ -12,7 +12,7 @@ tags:
   - "PowerSpout"
   - "Base-Load"
 keywords: "Micro-hydro vs solar ROI comparison, Low head hydro turbine for small streams, Powerspout PLT vs Turgo efficiency, residential micro hydro cost per kWh, hydro turbine head and flow calculator"
-heroImage: "/assets/images/articles/micro-wind-turbine-hero.png"
+hero: "/assets/images/articles/micro-wind-turbine-hero.png"
 ---
 # Micro-Hydro ROI: The "Battery-Killer" Base-Load Solution
 

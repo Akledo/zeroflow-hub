@@ -12,7 +12,7 @@ tags:
   - "Electrolyzer"
   - "Fuel Cell"
 keywords: "DIY hydrogen electrolyzer solar setup, residential hydrogen fuel cell backup cost, green hydrogen seasonal energy storage home, hydrogen storage tanks for residential use, hydrogen fuel cell vs li-ion for off-grid"
-heroImage: "/assets/images/articles/winter-battery-survival-hero.png"
+hero: "/assets/images/articles/winter-battery-survival-hero.png"
 ---
 # Residential Hydrogen Energy: Seasonal Storage for Off-Grid Sovereignty
 

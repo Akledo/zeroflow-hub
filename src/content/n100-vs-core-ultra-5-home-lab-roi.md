@@ -7,7 +7,7 @@ category: "Home Lab"
 author: "ZeroFlow Editorial Team"
 primaryKeyword: "N100 vs Core Ultra 5 home lab"
 keywords: ["Core Ultra 5 NPU ROI", "Intel N100 idle power", "local LLM hardware 2026", "Frigate AI hardware benchmarks", "Mini PC energy efficiency"]
-heroImage: "/assets/images/articles/n100-vs-core-ultra-hero.png"
+hero: "/assets/images/articles/n100-vs-core-ultra-hero.png"
 ---
 [Affiliate Disclosure: This post contains affiliate links. If you use these links to buy something we may earn a commission. Thanks.]
 

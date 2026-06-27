@@ -5,7 +5,7 @@ description: "Automated mushroom grow tents"
 date: "2026-06-07"
 category: "Mushroom Cultivation"
 author: "ZeroFlow Editorial Team"
-heroImage: "/assets/images/grow-mushrooms-benefits-hero.png"
+hero: "/assets/images/grow-mushrooms-benefits-hero.png"
 tags:
   - "Mushroom"
   - "Grow Box"

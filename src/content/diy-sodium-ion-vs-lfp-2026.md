@@ -7,7 +7,7 @@ category: "Solar & Energy"
 author: "ZeroFlow Editorial Team"
 primaryKeyword: "DIY Sodium-Ion vs LFP"
 keywords: ["Sodium-Ion energy storage", "Na-Ion vs LFP cost", "DIY battery bank 2026", "cold weather battery charging", "non-flammable battery safety"]
-heroImage: "/assets/images/articles/sodium-ion-vs-lfp-hero.png"
+hero: "/assets/images/articles/sodium-ion-vs-lfp-hero.png"
 ---
 [Affiliate Disclosure: This post contains affiliate links. If you use these links to buy something we may earn a commission. Thanks.]
 

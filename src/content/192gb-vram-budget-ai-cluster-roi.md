@@ -7,7 +7,7 @@ category: "Home Lab"
 author: "ZeroFlow Editorial Team"
 primaryKeyword: "192GB VRAM budget AI"
 keywords: ["budget 192GB VRAM build", "Tesla P40 AI cluster ROI", "Llama 3.1 405B hardware requirements", "RTX 3060 vs Mac Studio AI", "home lab LLM inference"]
-heroImage: "/assets/images/articles/192gb-vram-budget-hero.png"
+hero: "/assets/images/articles/192gb-vram-budget-hero.png"
 ---
 [Affiliate Disclosure: This post contains affiliate links. If you use these links to buy something we may earn a commission. Thanks.]
 
